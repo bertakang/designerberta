@@ -1,6 +1,9 @@
 <script setup lang="ts">
-import PortfolioWebSection from '@/components/PortfolioWebSection.vue';
-import AboutView from '../components/AboutSection.vue'
+import PortfolioBARISection from '@/components/PortfolioBARISection.vue';
+import PortfolioSeoulmateSection from '@/components/PortfolioSeoulmateSection.vue';
+import PortfolioLanguageAppSection from '@/components/PortfolioLanguageAppSection.vue';
+import AboutSection from '@/components/AboutSection.vue'
+import ContactSection from '@/components/ContactSection.vue'
 </script>
 
 <template>
@@ -8,8 +11,11 @@ import AboutView from '../components/AboutSection.vue'
     <div class="logo-wrapper">
     <img src="../assets/logo.png" alt="The Berta Kang Portfolio logo" />
   </div>
-  <AboutView></AboutView>
-  <PortfolioWebSection webitem="Portfolio Item"></PortfolioWebSection>
+  <AboutSection></AboutSection>
+  <PortfolioBARISection></PortfolioBARISection>
+  <PortfolioSeoulmateSection></PortfolioSeoulmateSection>
+  <PortfolioLanguageAppSection></PortfolioLanguageAppSection>
+  <ContactSection></ContactSection>
   </main>
 </template>
 

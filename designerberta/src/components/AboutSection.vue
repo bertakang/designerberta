@@ -1,12 +1,12 @@
 <template>
   <div class="about-wrapper">
     <div class="about-item-1">
-      <h1>Welcome to my portfolio.</h1>
+      <h1><span class="gradient-text">Welcome to my portfolio.</span></h1>
     </div>
     <div class="about-item-2">
       <p>
-        I am a web and mobile app developer. My front-end languages include Vue, NuxtJS, and
-        Flutter. My back-end languages include MySQL and Firebase.
+        I am a web and mobile app developer. My front-end skills include Vue, NuxtJS, and
+        Flutter, and my back-end skills include Python, SQL and Firebase.
       </p>
     </div>
   </div>
@@ -23,6 +23,7 @@
   p {
     font-size: 28px;
   }
+
   .about-wrapper {
     min-height: 100vh;
     display: flex;
@@ -34,14 +35,20 @@
   .about-item-1 {
     display: flex;
     width: 30vw;
-    color: linear-gradient(to right, pink, yellow) !important;
     text-align: end;
     padding: 20px;
   }
+
   .about-item-2 {
     display: flex;
     width: 30vw;
     padding: 20px;
+  }
+
+  .gradient-text {
+    background: linear-gradient(to bottom right, rgb(246, 232, 37),rgb(255, 35, 134) );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 }
 </style>
