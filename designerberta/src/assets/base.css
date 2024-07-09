@@ -32,8 +32,6 @@
 
   --color-heading: var(--vt-c-text-light-1);
   --color-text: var(--vt-c-text-light-1);
-
-  --section-gap: 160px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -45,17 +43,14 @@
     --color-border: var(--vt-c-divider-dark-2);
     --color-border-hover: var(--vt-c-divider-dark-1);
 
-    --color-heading: var(--vt-c-text-dark-1);
-    --color-text: var(--vt-c-text-dark-2);
+    --color-heading: linear-gradient(to right, pink, yellow);
+    --color-text: var(--vt-c-white-soft);
   }
 }
 
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
-  margin: 0;
-  font-weight: normal;
 }
 
 body {
@@ -72,6 +67,7 @@ body {
     BlinkMacSystemFont,
     'Segoe UI',
     Roboto,
+    Vollkorn,
     Oxygen,
     Ubuntu,
     Cantarell,
