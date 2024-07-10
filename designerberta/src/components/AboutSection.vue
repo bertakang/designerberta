@@ -5,8 +5,8 @@
     </div>
     <div class="about-item-2">
       <p>
-        I am a web and mobile app developer. My front-end skills include Vue, NuxtJS, and
-        Flutter, and my back-end skills include Python, SQL and Firebase.
+        I am a web and mobile app designer and developer. My front-end skills include Vue, NuxtJS,
+        and Flutter, and my back-end skills include Python, SQL and Firebase.
       </p>
     </div>
   </div>
@@ -46,7 +46,7 @@
   }
 
   .gradient-text {
-    background: linear-gradient(to bottom right, rgb(246, 232, 37),rgb(255, 35, 134) );
+    background: linear-gradient(to bottom right, rgb(246, 232, 37), rgb(255, 35, 134));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
