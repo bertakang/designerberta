@@ -5,7 +5,8 @@
             <p>{{ serviceDescription }}</p>
         </div>
         <div class="see-more">
-            <button>See More</button>
+            <Nuxt-Link :to="servicePage"><button>See More</button></Nuxt-Link>
+            
         </div>
     </div>
 </template>
@@ -14,6 +15,10 @@
 
 export default {
     props: {
+        servicePage: {
+            type: String,
+            required: true,
+        },
         serviceHeader: {
             type: String,
             required: true,
