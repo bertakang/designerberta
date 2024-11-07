@@ -90,6 +90,7 @@ section {
   align-items: center;
 }
 
+
 .about-wrapper {
   display: flex;
   position: absolute;
