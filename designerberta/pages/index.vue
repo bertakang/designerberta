@@ -19,29 +19,29 @@
       <Service 
             service-header="UX Research" 
             service-description="Unlock the secrets of your users with my UX research services. I dive deep into understanding your audience's needs and behaviors through insightful interviews and usability testing. I provide clear insights and actionable strategies that create a user experience your audience will love."
-            service-page="uxresearch"
+            service-page="uxresearch-index"
             />
 
         <Service 
             service-header="UI Design" 
             service-description="Bring your vision to life with my UI design services. I work with my customers to create modern, intuitive interfaces, focusing on interaction design and prototyping in Figma. From establishing a cohesive typography and color palette to crafting detailed prototypes that showcase your project’s structure, I do my absolute best to ensure every element enhances user engagement. Let’s design an experience that captivates your audience and elevates your brand!"
-            	service-page="uidesign"
+            service-page="uidesign-index"
             />
         <Service 
             service-header="Front-End Development" 
             service-description="Bring your prototype to life with my front-end development services! I specialize in building dynamic UI elements like forms, sliders, and photo galleries. Languages I use include: Flutter; HTML, CSS, and Javascript; Bootstrap; Anime.js; Vue and Nuxt. I’ll ensure your website or mobile app is fully responsive and compatible across all devices—desktop, tablet, and mobile (both iOS and Android)—so your audience has a seamless browsing experience, no matter where they are. Let’s bring your vision to life!"
-            service-page="frontend"
+            service-page="frontend-index"
             />
         
         <Service 
             service-header="Back-End Development" 
             service-description="Automate the busy work of your business with my back-end development services! I provide to my customers integration with third-party CRMs that track customer data, schedule appointments, manage booking details, generate invoices, and handle payment processing. Let me help you streamline your workflow and improve customer interactions. Together, we can build a back-end that supports your business goals."
-            service-page="backend"
+            service-page="backend-index"
             />
         <Service 
             service-header="Search Engine Optimization" 
             service-description="Improve your search engine rankings with comprehensive SEO setup strategies!  I work with my customers to handle On-Page SEO, optimizing websites with to improve rankings to drive relevant traffic. I also offer technical SEO, testing metrics for performance and accessibility. For international websites, I also handle optimization country-specific targeting. Whatever your needs are, let me help you elevate your search engine performance!"
-            service-page="seo"
+            service-page="seo-index"
             />
     </div>
   </section>
