@@ -3,13 +3,15 @@
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
-  modules: [
-    '@nuxtjs/google-fonts' // Add the Google Fonts module
-  ],
+  modules: [// Add the Google Fonts module
+  '@nuxtjs/google-fonts', '@nuxt/image'],
   googleFonts: {
     families: {
       Vollkorn: [400, 700], // Load Vollkorn with specified weights
     },
     display: 'swap', // Optional: use swap display for better UX
+  },
+  image: {
+    // Options
   }
 })

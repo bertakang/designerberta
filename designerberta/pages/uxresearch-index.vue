@@ -12,7 +12,7 @@
         <NuxtLink class="project" to="/uxresearch/ux-panyavon">Panyavon</NuxtLink>
 
         <div class="project">TAE Life Sciences</div>
-        <div class="project">Seoulmate</div>
+        <NuxtLink class="project" to="/uxresearch/ux-seoulmate">Seoulmate</NuxtLink>
       </div>
     </div>
   </section>
