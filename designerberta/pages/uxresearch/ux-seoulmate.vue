@@ -152,10 +152,10 @@
         <div class="two-one-wrapper">
             <div class="two-one-content">
                 <h2>Low-Fidelity Prototype</h2>
-                <iframe width="305" height="625" src="https://www.youtube.com/embed/ChBIaq-JUWk" title="Seoulmate - Low-Fidelity Prototype" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="229" height="469" src="https://www.youtube.com/embed/ChBIaq-JUWk" title="Seoulmate - Low-Fidelity Prototype" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
             <div class="two-one-description">
-                <h2>Low-Fidelity Prototyping</h2>
+                <h2>Figma Design for Low-Fidelity Prototype</h2>
         <p>A low-fidelity prototype was built in Figma and tested with a group of users from diverse backgrounds. After
             collecting feedback, an affinity diagram was created to organize insights from the usability study.</p>
             </div>
@@ -164,7 +164,12 @@
        
     </section>
     <section id="high-fidelity-prototyping">
-        <h2>High-Fidelity Prototyping</h2>
+        <div class="two-one-wrapper">
+            <div class="two-one-content">
+                <h2>High-Fidelity Prototype</h2>
+                <iframe width="229" height="469" src="https://www.youtube.com/embed/leXOJg2C33Q?si=uVXeLgj_UIYIzH6v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            </div>
+            <div class="two-one-description">
+                <h2>Figma Design for High-Fidelity Prototype</h2>
         <p>Based on the affinity diagram and usability insights, iterative changes were made to the design, including:
         </p>
         <ul>
@@ -174,6 +179,10 @@
         </ul>
         <p>The high-fidelity prototype was then developed and tested. The final videos below demonstrate three different
             user flows:</p>
+            </div>
+           
+        </div>
+
     </section>
 </template>
 

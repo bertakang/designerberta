@@ -39,6 +39,7 @@ export default {
     justify-content: space-between;
     border: 1px solid  #40b449;;
     padding: 16px 16px;
+    background-color: #1e1e1e;
 }
 
 .service h2 {

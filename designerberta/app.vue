@@ -1,12 +1,27 @@
 <!-- app.vue -->
 <template>
-  <div>
+  <div>   
+
     <NuxtLayout />
+
   </div>
 </template>
 
+<script>
+
+import { DotLottieVue } from '@lottiefiles/dotlottie-vue';
+
+export default {
+  components: {
+    DotLottieVue,
+
+  },
+};
+</script>
+
 <style>
-html, body {
+html,
+body {
   background-color: #1e1e1e;
   margin: 0;
   padding: 0;
@@ -14,4 +29,6 @@ html, body {
   font-family: Arial, sans-serif;
   color: aliceblue;
 }
+
+
 </style>

@@ -1,4 +1,7 @@
 <template>
+      <div class="background">
+      <DotLottieVue  style="height: 100%; width: 100%; transform: scale(1.8); border: 1px dashed red; justify-self: center;" autoplay loop src="/background.json" />
+    </div>
   <section class="select">
     <div class="header">
         <h1>UX Research Projects</h1>
@@ -68,6 +71,14 @@ section {
   padding: 0px 32px;
 }
 
+.background {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  z-index: 10;
+}
+
 
 .header {
   height: 10%;
@@ -105,7 +116,8 @@ section {
   border: 1px solid #40b449;
   justify-content: center;
   align-items: center;
-  
+  background-color: #1e1e1e;
+  z-index: 11;
 }
 
 .project:hover {

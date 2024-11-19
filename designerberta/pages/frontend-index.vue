@@ -9,9 +9,9 @@
       </div>
       <div class="frontend-grid">
         <div class="project">Panyavon</div>
-        <div class="project">KB Engineering</div>
-        <div class="project">BARI Produce</div>
-        <div class="project">Rapid Technologies</div>
+        <NuxtLink class="project" to="https://bertakang.github.io/kb_eng/">KB Engineering</NuxtLink>
+        <NuxtLink class="project" to="https://bariproduce.vercel.app/">BARI Produce</NuxtLink>
+        <NuxtLink class="project" to="https://rapid-tec.com/">Rapid Technologies</NuxtLink>
       </div>
     </div>
   </section>

@@ -1,4 +1,7 @@
 <template>
+    <div class="background">
+      <DotLottieVue  style="height: 100%; width: 100%; transform: scale(1.8); border: 1px dashed red; justify-self: center;" autoplay loop src="/background.json" />
+    </div>
   <section id="home">
     <div class="logo-wrapper">
       <Logo class="logo" />
@@ -69,6 +72,17 @@ export default {
 section {
   min-height: 100vh;
 }
+
+.background {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  z-index: 10;
+}
+
+
+
 /* home section */
 .logo-wrapper {
   height: 100vh;
@@ -135,5 +149,6 @@ section {
   grid-template-rows: 1fr 1fr;
   gap: 16px;
   padding: 0px 16px;
+  z-index: 11;
 }
 </style>

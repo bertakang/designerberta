@@ -1,71 +1,38 @@
 <template>
+            <h1>See below to get into contact.</h1>
     <div class="contact-wrapper">
+
         <div class="contact-navbar">
             <nav class="contact-nav-links-wrapper">
                 <a class="nav-link" href="#home">Home</a>
                 <a class="nav-link" href="#about">About</a>
                 <a class="nav-link" href="#services">Services</a>
-                <a class="nav-link" href="#career">Career</a>
             </nav>
         </div>
         <div class="info-wrapper">
-            <div class="address-wrapper">
-                <div class="address-column-wrapper">
-                    <div class="address">
-                        <h3>KB Engineering</h3>
-                        <p><i>Main Office</i><br>
-                            St 566<br>
-                            Phnom Penh, Cambodia 120408
-                        </p>
-                    </div>
-                    <div class="address">
-                        <h3>Phone</h3>
-                        <p>+855 16-814-906</p>
-                    </div>
-                </div>
-            </div>
             <div class="email-wrapper">
                 <div class="email-wrapper-1">
                     <div class="email">
-                        <h3>Kimkel Kang</h3>
-                        <button>
-                            <a href="mailto:RLogoluso@bariproduce.com">Email</a>
-                        </button>
-                    </div>
-                    <div class="email">
-                        <h3>Kim Sros</h3>
-                        <button>
-                            <a href="mailto:JBedwell@bariproduce.com">Email</a>
-                        </button>
-                    </div>
-                </div>
-                <div class="email-wrapper-2">
-                    <div class="email">
                         <h3>Berta Kang</h3>
                         <button>
-                            <a href="mailto:JStilwell@bariproduce.com">Email</a>
+                            <a href="mailto:bertakang@gmail.com">Email</a>
                         </button>
                     </div>
                 </div>
+              
             </div>
             <div class="work-wrapper">
-                <h3>Our Portfolio</h3>
+                <h3>My Portfolio</h3>
                 <div class="portfolio-wrapper">
                     <div class="portfolio-column">
-                        <a class="portfolio-link" href="https://bertakang.github.io/BARI-Produce-Staging/#home">Mobile &
-                            Web Development</a>
-                        <a class="portfolio-link"
-                            href="https://bertakang.github.io/BARI-Produce-Staging/#home">Groundwater Surveying</a>
-                        <a class="portfolio-link" href="https://bertakang.github.io/BARI-Produce-Staging/#home">Land
-                            Surveying</a>
+                        <NuxtLink class="portfolio-link" to="/uxresearch-index">UX Research</NuxtLink>
+                        <NuxtLink class="portfolio-link" to="/uidesign-index">UI Design</NuxtLink>
+                        <NuxtLink class="portfolio-link" to="/frontend-index">Front-End Development</NuxtLink>
+
                     </div>
                     <div class="portfolio-column">
-                        <a class="portfolio-link" href="https://bertakang.github.io/BARI-Produce-Staging/#home">Solar
-                            Design & Installation</a>
-                        <a class="portfolio-link"
-                            href="https://bertakang.github.io/BARI-Produce-Staging/#home">Groundwater Well Design</a>
-                        <a class="portfolio-link" href="https://bertakang.github.io/BARI-Produce-Staging/#home">Bored
-                            Pile Design</a>
+                        <NuxtLink class="portfolio-link" to="/backend-index">Back-End Development</NuxtLink>
+                        <NuxtLink class="portfolio-link" to="/seo-index">Search Engine Optimization</NuxtLink>
                     </div>
                 </div>
             </div>
@@ -98,6 +65,16 @@ footer {
     padding: 16px 32px;
 }
 
+button {
+    color: #1e1e1e;
+    background-color: #00adee;
+    padding: 8px 12px;
+    border-radius: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+}
+
 .nav-link {
     font-size: 22px;
 }
@@ -105,7 +82,8 @@ footer {
 .contact-wrapper {
     display: flex;
     flex-direction: row;
-    padding: 0px 32px;
+    padding: 32px 32px;
+    height: 25vh;
 }
 
 .contact-navbar {
@@ -128,16 +106,10 @@ footer {
 
 }
 
-.address-wrapper {
-    display: flex;
-    flex: 1;
-
-}
-
 .email-wrapper {
     display: flex;
     flex: 2;
-
+    padding: 0px 32px;
 
 }
 
@@ -145,7 +117,7 @@ footer {
     display: flex;
     flex-direction: column;
     flex: 3;
-
+    z-index: 12;
 }
 
 .portfolio-wrapper {
@@ -165,6 +137,10 @@ footer {
 .portfolio-link {
     font-size: 18px;
     padding: 4px 8px;
+}
+
+.portfolio-link:hover {
+color: aliceblue;
 }
 
 .email {
