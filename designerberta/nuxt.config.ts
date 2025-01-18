@@ -7,7 +7,8 @@ export default defineNuxtConfig({
   '@nuxtjs/google-fonts', '@nuxt/image'],
   googleFonts: {
     families: {
-      Vollkorn: [400, 700], // Load Vollkorn with specified weights
+      Vollkorn: [400, 700],
+      Manrope: [400, 700], 
     },
     display: 'swap', // Optional: use swap display for better UX
   },

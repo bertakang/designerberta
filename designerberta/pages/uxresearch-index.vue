@@ -1,69 +1,95 @@
 <template>
-      <div class="background">
-      <DotLottieVue  style="height: 100%; width: 100%; transform: scale(1.8); border: 1px dashed red; justify-self: center;" autoplay loop src="/background.json" />
-    </div>
+  <div class="background">
+    <DotLottieVue
+      style="
+        height: 100%;
+        width: 100%;
+        transform: scale(1.8);
+        border: 1px dashed red;
+        justify-self: center;
+      "
+      autoplay
+      loop
+      src="/background.json"
+    />
+  </div>
   <section class="select">
     <div class="header">
-        <h1>UX Research Projects</h1>
-      </div>
+      <h1>UX Research Projects</h1>
+    </div>
     <div class="uxresearch-wrapper">
       <div class="intro">
         <h2>Pick a project to explore.</h2>
       </div>
       <div class="uxresearch-grid">
-      
-        <NuxtLink class="project" to="/uxresearch/ux-panyavon">Panyavon</NuxtLink>
+        <NuxtLink class="project" to="/uxresearch/ux-panyavon"
+          >Panyavon</NuxtLink
+        >
 
-        <div class="project">TAE Life Sciences</div>
-        <NuxtLink class="project" to="/uxresearch/ux-seoulmate">Seoulmate</NuxtLink>
+        <NuxtLink class="project" to="/uxresearch/ux-seoulmate"
+          >Seoulmate</NuxtLink
+        >
       </div>
     </div>
   </section>
 </template>
 
 <script>
-import { onMounted } from 'vue';
-import anime from 'animejs';
-import { DotLottieVue } from '@lottiefiles/dotlottie-vue';
+import { onMounted } from "vue";
+import anime from "animejs";
+import { DotLottieVue } from "@lottiefiles/dotlottie-vue";
 
 export default {
-  middleware: 'password',
+  middleware: "password",
   components: {
     DotLottieVue,
   },
   setup() {
     const animateGrid = () => {
-      anime.timeline()
-      .add({
-        targets: '.uxresearch-grid .project', 
-        translateX: ['-100vw', '0vw'], 
-        easing: 'easeInSine',
-        duration: 1000,
-        delay: anime.stagger(200, { grid: [3, 2], from: 'center' }) 
-      })
-      .add({
-        targets: '.uxresearch-wrapper .intro', 
-        opacity: [0, 1], 
-        easing: 'easeInSine',
-        duration: 900,
-      })
+      anime
+        .timeline()
+        .add({
+          targets: ".uxresearch-grid .project",
+          translateX: ["-100vw", "0vw"],
+          easing: "easeInSine",
+          duration: 1000,
+          delay: anime.stagger(200, { grid: [3, 2], from: "center" }),
+        })
+        .add({
+          targets: ".uxresearch-wrapper .intro",
+          opacity: [0, 1],
+          easing: "easeInSine",
+          duration: 900,
+        });
     };
 
     onMounted(() => {
       animateGrid();
     });
-  }
+  },
 };
 </script>
 
 <style>
 @keyframes rainbowBorder {
-  0% { border-color: #00adee; }
-  20% { border-color: #f7941d; }
-  40% { border-color: #40b449; } 
-  60% { border-color: #d876af; } 
-  80% { border-color: #f9f07f; }  
-  100% { border-color: #00adee; } 
+  0% {
+    border-color: #00adee;
+  }
+  20% {
+    border-color: #f7941d;
+  }
+  40% {
+    border-color: #40b449;
+  }
+  60% {
+    border-color: #d876af;
+  }
+  80% {
+    border-color: #f9f07f;
+  }
+  100% {
+    border-color: #00adee;
+  }
 }
 
 section {
@@ -78,7 +104,6 @@ section {
   overflow: hidden;
   z-index: 10;
 }
-
 
 .header {
   height: 10%;

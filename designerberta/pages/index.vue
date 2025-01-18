@@ -1,74 +1,83 @@
 <template>
-    <div class="background">
-      <DotLottieVue  style="height: 100%; width: 100%; transform: scale(1.8); border: 1px dashed red; justify-self: center;" autoplay loop src="/background.json" />
-    </div>
+  <div class="background">
+    <DotLottieVue style="
+        height: 100%;
+        width: 100%;
+        transform: scale(1.8);
+        border: 1px dashed red;
+        justify-self: center;
+      " autoplay loop src="/background.json" />
+  </div>
   <section id="home">
     <div class="logo-wrapper">
       <Logo class="logo" />
     </div>
   </section>
   <section id="about">
-      <div class="about-wrapper">
-        <div class="intro">Hello, my name is Berta.</div>
-        <div class="intro-message">Welcome to my portfolio.</div>
+    <div class="about-wrapper">
+      <div class="intro">Hello, my name is Berta.</div>
+      <div class="intro-message">
+        <span
+          style="font-weight: bold; font-size: 36px;  font-family: Vollkorn, serif; line-height: 1.6;">Welcome
+          to my portfolio.</span>
+         Years ago, I was a civil engineer-in-training, avid stock trader, and freelance graphic designer. Now I
+        do end-to-end web and mobile development, with UX, UI and asset design
+        included. <br/><br/>I'm not a cookie-cutter designer engineer. If you like that, find me here.
       </div>
+    </div>
     <div class="septagon">
-      <DotLottieVue style="height: auto; width: 90%; justify-self: center;" autoplay loop src="https://lottie.host/d7a92252-2e5d-4ca2-9dc6-337753970266/1Exy8PGcMD.lottie" />
+      <DotLottieVue style="height: auto; width: 90%; justify-self: center" autoplay loop
+        src="https://lottie.host/d7a92252-2e5d-4ca2-9dc6-337753970266/1Exy8PGcMD.lottie" />
     </div>
   </section>
   <section id="services">
     <h1>Services</h1>
     <div class="services-grid">
-      <Service 
-            service-header="UX Research" 
-            service-description="Unlock the secrets of your users with my UX research services. I dive deep into understanding your audience's needs and behaviors through insightful interviews and usability testing. I provide clear insights and actionable strategies that create a user experience your audience will love."
-            service-page="uxresearch-index"
-            />
+      <Service service-header="UX Research"
+        service-description="User Experience is such a delicate and constantly evolving field. Providing clear insight and actionable strategy is always the goal, but finding those two or three questions that others in your field have failed to ask will always set your project up with a competitive edge. Whether it’s cross-continent field work, becoming a member of the target audience myself or simply conducting interviews and usability tests – it’s comfortably within the bounds of what I’m willing to research."
+        service-page="uxresearch-index" />
 
-        <Service 
-            service-header="UI Design" 
-            service-description="Bring your vision to life with my UI design services. I work with my customers to create modern, intuitive interfaces, focusing on interaction design and prototyping in Figma. From establishing a cohesive typography and color palette to crafting detailed prototypes that showcase your project’s structure, I do my absolute best to ensure every element enhances user engagement. Let’s design an experience that captivates your audience and elevates your brand!"
-            service-page="uidesign-index"
-            />
-        <Service 
-            service-header="Front-End Development" 
-            service-description="Bring your prototype to life with my front-end development services! I specialize in building dynamic UI elements like forms, sliders, and photo galleries. Languages I use include: Flutter; HTML, CSS, and Javascript; Bootstrap; Anime.js; Vue and Nuxt. I’ll ensure your website or mobile app is fully responsive and compatible across all devices—desktop, tablet, and mobile (both iOS and Android)—so your audience has a seamless browsing experience, no matter where they are. Let’s bring your vision to life!"
-            service-page="frontend-index"
-            />
-        
-        <Service 
-            service-header="Back-End Development" 
-            service-description="Automate the busy work of your business with my back-end development services! I provide to my customers integration with third-party CRMs that track customer data, schedule appointments, manage booking details, generate invoices, and handle payment processing. Let me help you streamline your workflow and improve customer interactions. Together, we can build a back-end that supports your business goals."
-            service-page="backend-index"
-            />
-        <Service 
-            service-header="Search Engine Optimization" 
-            service-description="Improve your search engine rankings with comprehensive SEO setup strategies!  I work with my customers to handle On-Page SEO, optimizing websites with to improve rankings to drive relevant traffic. I also offer technical SEO, testing metrics for performance and accessibility. For international websites, I also handle optimization country-specific targeting. Whatever your needs are, let me help you elevate your search engine performance!"
-            service-page="seo-index"
-            />
+      <Service service-header="UI Design"
+        service-description="I’m a total nerd about color palettes, typography pairings and interaction design. I’m happy to spend many hours consuming mood board-esque media relevant to my projects before knocking out a prototype in one or two goes. The moment of finding that balance between experimental and usable is a sweet spot that feels like a war was won. I usually spend about 20 minutes considering its engineering feasibility before going all in on my Figma files."
+        service-page="uidesign-index" />
+      <Service service-header="Front-End Development"
+        service-description="For web development, I like Vue.js and especially its framework Nuxt for its server-side rendering and SEO capabilities. If the website is simple, I stay with clean HTML, CSS, and Javascript (with Anime.js as my animation library). For mobile, I use Flutter to keep my apps cross-platform. Admittedly, my second or third draft of my prototypes end up being straight up designed in whatever front-end framework I chose to save time for my clients."
+        service-page="frontend-index" />
+
+      <Service service-header="Back-End Development"
+        service-description="I have a preference for NoSQL when I’m putting together backends, although I’m aware every project has its own needs. I’ve used Django, Firebase, and a little-known favorite of mine: Isar. My preferred language for this type of work is Python. Wearing so many hats as a developer, I’ve had to learn what pertinent information is and to avoid finalizing the database design too much earlier than the front-end."
+        service-page="backend-index" />
+      <Service service-header="Search Engine Optimization"
+        service-description="SEO is a fairly new major interest of mine, as is the art of marketing. I guess we can call SEO an adtech tool. I’ve worked in Google Lighthouse, PageSpeed insights, and Ahrefs into my previous work. I gave my clients XML Sitemaps, robots.txt files, cleaned up their HTML tags and redirected broken links to make sure we didn’t unnecessarily lose any ranking. This is a field I plan to improve rapidly at."
+        service-page="seo-index" />
+        <Service service-header="Digital Art"
+        service-description="This is the field closest to my passion, and the skillset that challenges me the most. Invaluably, drawing and painting taught me patience, perspective, how to change my frame of mind, and empathy for those who have practiced hard at something. I’m still a rookie, but please come and explore my art."
+        service-page="seo-index" />
     </div>
   </section>
-
-
 </template>
 
 <script>
-import Logo from '@/components/Logo.vue';
-import Service from '@/components/Service.vue';
-import Contact from '@/components/Contact.vue';
-import { DotLottieVue } from '@lottiefiles/dotlottie-vue';
+import Logo from "@/components/Logo.vue";
+import Service from "@/components/Service.vue";
+import Contact from "@/components/Contact.vue";
+import { DotLottieVue } from "@lottiefiles/dotlottie-vue";
 
 export default {
   components: {
     Logo,
     DotLottieVue,
     Service,
-    Contact
+    Contact,
   },
 };
 </script>
 
 <style>
+p {
+  font-size: 18px;
+}
+
 section {
   min-height: 100vh;
 }
@@ -81,8 +90,6 @@ section {
   z-index: 10;
 }
 
-
-
 /* home section */
 .logo-wrapper {
   height: 100vh;
@@ -94,47 +101,52 @@ section {
 .logo {
   width: 80%;
   justify-self: center;
-
 }
 
 /* about section */
 #about {
-  display:flex;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 
-
 .about-wrapper {
   display: flex;
-  position: absolute;
-  width: 50%;
+  justify-content: center;
+  align-items: center;
+  width: 70vw;
+  height: 100%; 
 }
 
 .intro {
-  width: 50%;
+  display: flex;
+  flex: 1;
   padding: 0px 16px;
-  font-family: 'Vollkorn', serif;
+  font-family: "Vollkorn", serif;
   font-size: 64px;
-  font-weight: bold; 
+  font-weight: bold;
   text-align: right;
   line-height: 1.2;
+
   color: #d876af;
+
 }
 
-
 .intro-message {
-  width: 50%;
-  padding: 0px 16px; 
-  font-size: 32px;
+  display: flex;
+  flex-direction: column;
+ 
+  flex: 1;
+  padding: 0px 16px;
+  font-size: 24px;
+  line-height: 1.2;
+  flex-grow: 1;
 }
 
 .septagon {
   position: absolute;
   width: 100%;
 }
-
-
 
 /*services section*/
 #services {
