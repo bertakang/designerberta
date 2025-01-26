@@ -231,7 +231,9 @@
       </div>
     </div>
     <div class="intro-visual">
-      <iframe
+      <iframe         width="300"
+      height="614" src="https://lottie.host/embed/53586581-eb93-46b9-9306-13f15d3ae6cc/tAcacMGRtD.lottie"></iframe>
+      <!-- <iframe
         width="300"
         height="614"
         src="https://www.youtube.com/embed/ChBIaq-JUWk"
@@ -240,7 +242,7 @@
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         referrerpolicy="strict-origin-when-cross-origin"
         allowfullscreen
-      ></iframe>
+      ></iframe> -->
     </div>
   </section>
   <section id="study">
