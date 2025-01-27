@@ -30,5 +30,11 @@ body {
   color: aliceblue;
 }
 
+section {
+  display: flex;
+  position: relative;
+  margin-bottom: 64px;
+}
+
 
 </style>
