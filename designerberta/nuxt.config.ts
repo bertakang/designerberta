@@ -14,5 +14,21 @@ export default defineNuxtConfig({
   },
   image: {
     // Options
-  }
+  },
+  head: {
+    link: [
+      {
+        rel: 'stylesheet',
+        href: 'https://cdn.jsdelivr.net/npm/prismjs@1.28.0/themes/prism.css',
+      },
+    ],
+    script: [
+      {
+        src: 'https://cdn.jsdelivr.net/npm/prismjs@1.28.0/prism.js',
+      },
+      {
+        src: 'https://cdn.jsdelivr.net/npm/prismjs@1.28.0/components/prism-dart.min.js',
+      },
+    ],
+  },
 })

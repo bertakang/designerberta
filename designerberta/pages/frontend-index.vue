@@ -83,18 +83,20 @@ export default {
 }
 
 section {
+  display: flex;
+  flex-direction: column;
   min-height: 100vh;
   padding: 0px 32px;
 }
 
 .header {
-  height: 10%;
+  height: 10vh;
 }
 
 .frontend-wrapper {
   display: flex;
   flex-direction: row;
-  height: 96vh;
+  height: 90vh;
 }
 
 .intro {

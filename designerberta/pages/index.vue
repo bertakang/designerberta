@@ -93,15 +93,18 @@ section {
 /* home section */
 .logo-wrapper {
   height: 100vh;
+  width: 100vw;
   align-content: center;
   z-index: 1000;
   padding: 0px 32px;
 }
 
 .logo {
-  width: 80%;
+  width: 90%;
   justify-self: center;
+  align-self: center;
 }
+
 
 /* about section */
 #about {

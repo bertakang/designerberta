@@ -18,16 +18,10 @@
       </div>
     </div>
     <div class="intro-visual">
-      <iframe
-        width="300"
-        height="614"
-        src="https://www.youtube.com/embed/ChBIaq-JUWk"
-        title="Seoulmate - Low-Fidelity Prototype"
-        frameborder="0"
+      <iframe width="300" height="614" src="https://www.youtube.com/embed/ChBIaq-JUWk"
+        title="Seoulmate - Low-Fidelity Prototype" frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"
-        allowfullscreen
-      ></iframe>
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
   </section>
   <section id="goal">
@@ -231,18 +225,11 @@
       </div>
     </div>
     <div class="intro-visual">
-      <iframe         width="300"
-      height="614" src="https://lottie.host/embed/53586581-eb93-46b9-9306-13f15d3ae6cc/tAcacMGRtD.lottie"></iframe>
-      <!-- <iframe
-        width="300"
-        height="614"
-        src="https://www.youtube.com/embed/ChBIaq-JUWk"
-        title="Seoulmate - Low-Fidelity Prototype"
-        frameborder="0"
+
+      <iframe width="300" height="614" src="https://www.youtube.com/embed/ChBIaq-JUWk"
+        title="Seoulmate - Low-Fidelity Prototype" frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"
-        allowfullscreen
-      ></iframe> -->
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
   </section>
   <section id="study">
@@ -260,100 +247,120 @@
             opportunities.
           </p>
           <div class="video-sample">
-            <iframe
-              width="229"
-              height="469"
-              src="https://www.youtube.com/embed/ChBIaq-JUWk"
-              title="Seoulmate - Low-Fidelity Prototype"
-              frameborder="0"
+            <iframe width="250" height="512" src="https://www.youtube.com/embed/se5zsKjVbmg"
+              title="Panyavon - Phonics Practice" frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>
+              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </div>
         </div>
       </div>
       <div class="two-one-content">
-        <h1>Code Samples</h1>
-        <pre>
-      <code class="html">
-&lt;!DOCTYPE html&gt;
-&lt;html lang="en"&gt;
-&lt;head&gt;
-  &lt;meta charset="UTF-8"&gt;
-  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-  &lt;title&gt;Sample HTML&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;h1&gt;Hello, World!&lt;/h1&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-      </code>
-    </pre>
-        <h1>State Management</h1>
-        <pre>
-      <code class="html">
-&lt;!DOCTYPE html&gt;
-&lt;html lang="en"&gt;
-&lt;head&gt;
-  &lt;meta charset="UTF-8"&gt;
-  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-  &lt;title&gt;Sample HTML&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;h1&gt;Hello, World!&lt;/h1&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-      </code>
-    </pre>
-        <h1>State Management</h1>
-        <pre>
-      <code class="html">
-&lt;!DOCTYPE html&gt;
-&lt;html lang="en"&gt;
-&lt;head&gt;
-  &lt;meta charset="UTF-8"&gt;
-  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-  &lt;title&gt;Sample HTML&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;h1&gt;Hello, World!&lt;/h1&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-      </code>
-    </pre>
-        <h1>State Management</h1>
-        <pre>
-      <code class="html">
-&lt;!DOCTYPE html&gt;
-&lt;html lang="en"&gt;
-&lt;head&gt;
-  &lt;meta charset="UTF-8"&gt;
-  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-  &lt;title&gt;Sample HTML&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;h1&gt;Hello, World!&lt;/h1&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-      </code>
-    </pre>
-        <h1>State Management</h1>
-        <pre>
-      <code class="html">
-&lt;!DOCTYPE html&gt;
-&lt;html lang="en"&gt;
-&lt;head&gt;
-  &lt;meta charset="UTF-8"&gt;
-  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-  &lt;title&gt;Sample HTML&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;h1&gt;Hello, World!&lt;/h1&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-      </code>
-    </pre>
+        <h1>CODE SAMPLES</h1>
+
+
+        <h1>Custom Alphabet Block UI Components</h1>
+        <pre><code class="language-dart">
+import 'package:flutter/material.dart';
+
+// Define an enum for AlphabetLanguage
+enum AlphabetLanguage { eng, khm }
+
+class AlphabetBlock extends StatelessWidget {
+  final AlphabetLanguage language;
+  final String letter;
+  final String? letterFoot;
+
+  const AlphabetBlock({
+    super.key,
+    required this.language,
+    required this.letter,
+    this.letterFoot,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return LayoutBuilder(
+      builder: (BuildContext context, BoxConstraints constraints) {
+        double alphabetBlockWidth = constraints.maxWidth * 0.9;
+        double alphabetBlockHeight = constraints.maxHeight * 0.85;
+        AlignmentGeometry alignment = const AlignmentDirectional(-1.0, -1.0);
+
+        return Container(
+          margin: const EdgeInsets.symmetric(vertical: 8.0),
+          width: double.infinity,
+          child: StatefulBuilder(
+            builder: (BuildContext context, StateSetter setState) {
+              void handlePress() {
+                setState(() {
+                  if (alignment == const AlignmentDirectional(-1.0, -1.0)) {
+                    alignment = const AlignmentDirectional(1.0, 1.0);
+                  } else {
+                    alignment = const AlignmentDirectional(-1.0, -1.0);
+                  }
+                });
+              }
+
+              return InkWell(
+                onTap: handlePress,
+                child: Stack(
+                  children: [
+                    Align(
+                      alignment: const AlignmentDirectional(1.0, 1.0),
+                      child: Ink(
+                        height: alphabetBlockHeight,
+                        width: alphabetBlockWidth,
+                        decoration: BoxDecoration(
+                          color: const Color(0xFF899EA3),
+                          borderRadius: BorderRadius.circular(16),
+                        ),
+                      ),
+                    ),
+                    Align(
+                      alignment: alignment,
+                      child: Ink(
+                        height: alphabetBlockHeight,
+                        width: alphabetBlockWidth,
+                        decoration: BoxDecoration(
+                          color: const Color(0xFFDBF3F9),
+                          borderRadius: BorderRadius.circular(16),
+                          border: Border.all(
+                              color: Color(0xFF899EA3), width: 4),
+                        ),
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          crossAxisAlignment: CrossAxisAlignment.center,
+                          children: &lt;Widget&gt;[
+                            Text(
+                              letter,
+                              style: const TextStyle(
+                                color: Color.fromARGB(255, 83, 83, 81),
+                                fontSize: 36,
+                                fontFamily: 'EB Garamond',
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                            Icon(
+                              Icons.volume_up,
+                              size: 30, // Set the size of the icon
+                              color: Color.fromARGB(255, 83, 83, 81),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
+                  ],
+                ),
+              );
+            },
+          ),
+        );
+      },
+    );
+  }
+}
+</code></pre>
+
+
       </div>
     </div>
   </section>
@@ -371,100 +378,110 @@
             code for additional information.
           </p>
           <div class="video-sample">
-            <iframe
-              width="229"
-              height="469"
-              src="https://www.youtube.com/embed/ChBIaq-JUWk"
-              title="Seoulmate - Low-Fidelity Prototype"
-              frameborder="0"
+            <iframe width="250" height="512" src="https://www.youtube.com/embed/ChBIaq-JUWk"
+              title="Seoulmate - Low-Fidelity Prototype" frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>
+              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </div>
         </div>
       </div>
       <div class="two-one-content">
-        <h1>Code Samples</h1>
-        <pre>
-      <code class="html">
-&lt;!DOCTYPE html&gt;
-&lt;html lang="en"&gt;
-&lt;head&gt;
-  &lt;meta charset="UTF-8"&gt;
-  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-  &lt;title&gt;Sample HTML&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;h1&gt;Hello, World!&lt;/h1&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-      </code>
-    </pre>
-        <h1>State Management</h1>
-        <pre>
-      <code class="html">
-&lt;!DOCTYPE html&gt;
-&lt;html lang="en"&gt;
-&lt;head&gt;
-  &lt;meta charset="UTF-8"&gt;
-  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-  &lt;title&gt;Sample HTML&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;h1&gt;Hello, World!&lt;/h1&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-      </code>
-    </pre>
-        <h1>State Management</h1>
-        <pre>
-      <code class="html">
-&lt;!DOCTYPE html&gt;
-&lt;html lang="en"&gt;
-&lt;head&gt;
-  &lt;meta charset="UTF-8"&gt;
-  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-  &lt;title&gt;Sample HTML&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;h1&gt;Hello, World!&lt;/h1&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-      </code>
-    </pre>
-        <h1>State Management</h1>
-        <pre>
-      <code class="html">
-&lt;!DOCTYPE html&gt;
-&lt;html lang="en"&gt;
-&lt;head&gt;
-  &lt;meta charset="UTF-8"&gt;
-  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-  &lt;title&gt;Sample HTML&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;h1&gt;Hello, World!&lt;/h1&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-      </code>
-    </pre>
-        <h1>State Management</h1>
-        <pre>
-      <code class="html">
-&lt;!DOCTYPE html&gt;
-&lt;html lang="en"&gt;
-&lt;head&gt;
-  &lt;meta charset="UTF-8"&gt;
-  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-  &lt;title&gt;Sample HTML&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;h1&gt;Hello, World!&lt;/h1&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-      </code>
-    </pre>
+        <h1>CODE SAMPLES</h1>
+        <h1>Flashcard Flip Animation</h1>
+        <pre><code class="language-dart">
+import 'package:flutter/material.dart';
+import 'package:lottie/lottie.dart';
+import 'package:dotlottie_loader/dotlottie_loader.dart';
+
+class Flashcard extends StatefulWidget {
+  final String english_term;
+  final String khmerization;
+  final List&lt;dynamic&gt; english_synonyms;
+  final String english_example;
+  final String khmer_term;
+  final String romanization;
+  final List&lt;dynamic&gt; khmer_synonyms;
+  final String khmer_example;
+  final bool isFlipped;
+
+  const Flashcard({
+    super.key,
+    required this.english_term,
+    required this.khmerization,
+    required this.english_synonyms,
+    required this.english_example,
+    required this.khmer_term,
+    required this.romanization,
+    required this.khmer_synonyms,
+    required this.khmer_example,
+    required this.isFlipped,
+  });
+
+  @override
+  _FlashcardState createState() => _FlashcardState();
+}
+
+class _FlashcardState extends State&lt;Flashcard&gt; with SingleTickerProviderStateMixin {
+  late AnimationController _controller;
+  late Animation&lt;double&gt; _animation;
+  bool isFlipped = false;
+
+  @override
+  void initState() {
+    super.initState();
+    _controller = AnimationController(duration: const Duration(milliseconds: 400), vsync: this);
+    _animation = Tween&lt;double&gt;(begin: 0.0, end: 1.0).animate(_controller);
+  }
+
+  void _flipCard() {
+    if (isFlipped) {
+      _controller.reverse();
+    } else {
+      _controller.forward();
+    }
+
+    setState(() {
+      isFlipped = !isFlipped;
+    });
+  }
+
+  @override
+  void dispose() {
+    _controller.dispose();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return GestureDetector(
+      onTap: _flipCard,
+      child: AnimatedBuilder(
+          animation: _animation,
+          builder: (context, child) {
+            final angle = _animation.value * 3.1416;
+            final isFrontVisible = angle &lt;= 3.1416 / 2 || angle &gt;= 3.1416 * 1.5;
+
+            return Transform(
+              alignment: Alignment.center,
+              transform: Matrix4.rotationY(angle),
+              child: isFrontVisible
+                  ? _buildCard(widget.english_term, widget.khmerization,
+                      widget.english_synonyms, widget.english_example, true)
+                  : Transform(
+                      alignment: Alignment.center,
+                      transform: Matrix4.rotationY(3.1416),
+                      child: _buildCard(widget.khmer_term, widget.romanization,
+                          widget.khmer_synonyms, widget.khmer_example, false),
+                    ),
+            );
+          }),
+    );
+  }
+}
+</code></pre>
+
+
+
       </div>
     </div>
   </section>
@@ -482,100 +499,59 @@
             experience.
           </p>
           <div class="video-sample">
-            <iframe
-              width="229"
-              height="469"
-              src="https://www.youtube.com/embed/ChBIaq-JUWk"
-              title="Seoulmate - Low-Fidelity Prototype"
-              frameborder="0"
+            <iframe width="250" height="512" src="https://www.youtube.com/embed/i7Q4dEAswTk
+" title="Seoulmate - Low-Fidelity Prototype" frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>
+              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </div>
         </div>
       </div>
       <div class="two-one-content">
         <h1>Code Samples</h1>
-        <pre>
-      <code class="html">
-&lt;!DOCTYPE html&gt;
-&lt;html lang="en"&gt;
-&lt;head&gt;
-  &lt;meta charset="UTF-8"&gt;
-  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-  &lt;title&gt;Sample HTML&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;h1&gt;Hello, World!&lt;/h1&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-      </code>
-    </pre>
-        <h1>State Management</h1>
-        <pre>
-      <code class="html">
-&lt;!DOCTYPE html&gt;
-&lt;html lang="en"&gt;
-&lt;head&gt;
-  &lt;meta charset="UTF-8"&gt;
-  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-  &lt;title&gt;Sample HTML&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;h1&gt;Hello, World!&lt;/h1&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-      </code>
-    </pre>
-        <h1>State Management</h1>
-        <pre>
-      <code class="html">
-&lt;!DOCTYPE html&gt;
-&lt;html lang="en"&gt;
-&lt;head&gt;
-  &lt;meta charset="UTF-8"&gt;
-  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-  &lt;title&gt;Sample HTML&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;h1&gt;Hello, World!&lt;/h1&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-      </code>
-    </pre>
-        <h1>State Management</h1>
-        <pre>
-      <code class="html">
-&lt;!DOCTYPE html&gt;
-&lt;html lang="en"&gt;
-&lt;head&gt;
-  &lt;meta charset="UTF-8"&gt;
-  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-  &lt;title&gt;Sample HTML&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;h1&gt;Hello, World!&lt;/h1&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-      </code>
-    </pre>
-        <h1>State Management</h1>
-        <pre>
-      <code class="html">
-&lt;!DOCTYPE html&gt;
-&lt;html lang="en"&gt;
-&lt;head&gt;
-  &lt;meta charset="UTF-8"&gt;
-  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-  &lt;title&gt;Sample HTML&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;h1&gt;Hello, World!&lt;/h1&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-      </code>
-    </pre>
+        <h1>Scroll Controller</h1>
+        <pre><code class="language-dart">
+class _LessonsTemplatePageState extends State&lt;LessonsTemplatePage&gt; {
+  int currentPageIndex = 0;
+  final ScrollController _scrollController = ScrollController();
+  bool isBottomNavVisible = false;
+
+  late Map&lt;String, dynamic&gt; _lessonData = {};
+
+  @override
+  void initState() {
+    super.initState();
+    _loadLessonData();
+    _scrollController.addListener(() {
+      if (_scrollController.position.pixels &gt;=
+          _scrollController.position.maxScrollExtent) {
+        setState(() {
+          isBottomNavVisible = true;
+        });
+      } else {
+        setState(() {
+          isBottomNavVisible = false;
+        });
+      }
+    });
+  }
+
+  Future&lt;void&gt; _loadLessonData() async {
+    String lessonJSON =
+        await rootBundle.loadString('data/grammar/${widget.lessonFile}');
+    setState(() {
+      _lessonData = json.decode(lessonJSON);
+    });
+  }
+
+  @override
+  void dispose() {
+    _scrollController.dispose();
+    super.dispose();
+  }
+}
+</code></pre>
+
+
       </div>
     </div>
   </section>
@@ -594,23 +570,17 @@
       </div>
     </div>
     <div class="intro-visual">
-      <iframe
-        width="300"
-        height="614"
-        src="https://www.youtube.com/embed/ChBIaq-JUWk"
-        title="Seoulmate - Low-Fidelity Prototype"
-        frameborder="0"
+      <iframe width="300" height="614" src="https://www.youtube.com/embed/ChBIaq-JUWk"
+        title="Seoulmate - Low-Fidelity Prototype" frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"
-        allowfullscreen
-      ></iframe>
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
   </section>
   <section id="games">
     <div class="two-one-wrapper">
       <div class="two-one-description-wrapper">
         <div class="two-one-description">
-          <h2>Typing Game</h2>
+          <h2>OM TOUK TYPING RACE: Typing Practice Game</h2>
           <p>
             A typing challenge designed to improve spelling, speed, and
             accuracy. This game reinforces vocabulary and sentence structure,
@@ -621,100 +591,52 @@
           </p>
 
           <div class="video-sample">
-            <iframe
-              width="229"
-              height="469"
-              src="https://www.youtube.com/embed/ChBIaq-JUWk"
-              title="Seoulmate - Low-Fidelity Prototype"
-              frameborder="0"
+            <iframe width="229" height="469" src="https://www.youtube.com/embed/ChBIaq-JUWk"
+              title="Seoulmate - Low-Fidelity Prototype" frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>
+              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </div>
         </div>
       </div>
       <div class="two-one-content">
-        <h1>Code Samples</h1>
-        <pre>
-      <code class="html">
-&lt;!DOCTYPE html&gt;
-&lt;html lang="en"&gt;
-&lt;head&gt;
-  &lt;meta charset="UTF-8"&gt;
-  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-  &lt;title&gt;Sample HTML&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;h1&gt;Hello, World!&lt;/h1&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-      </code>
-    </pre>
-        <h1>State Management</h1>
-        <pre>
-      <code class="html">
-&lt;!DOCTYPE html&gt;
-&lt;html lang="en"&gt;
-&lt;head&gt;
-  &lt;meta charset="UTF-8"&gt;
-  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-  &lt;title&gt;Sample HTML&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;h1&gt;Hello, World!&lt;/h1&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-      </code>
-    </pre>
-        <h1>State Management</h1>
-        <pre>
-      <code class="html">
-&lt;!DOCTYPE html&gt;
-&lt;html lang="en"&gt;
-&lt;head&gt;
-  &lt;meta charset="UTF-8"&gt;
-  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-  &lt;title&gt;Sample HTML&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;h1&gt;Hello, World!&lt;/h1&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-      </code>
-    </pre>
-        <h1>State Management</h1>
-        <pre>
-      <code class="html">
-&lt;!DOCTYPE html&gt;
-&lt;html lang="en"&gt;
-&lt;head&gt;
-  &lt;meta charset="UTF-8"&gt;
-  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-  &lt;title&gt;Sample HTML&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;h1&gt;Hello, World!&lt;/h1&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-      </code>
-    </pre>
-        <h1>State Management</h1>
-        <pre>
-      <code class="html">
-&lt;!DOCTYPE html&gt;
-&lt;html lang="en"&gt;
-&lt;head&gt;
-  &lt;meta charset="UTF-8"&gt;
-  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-  &lt;title&gt;Sample HTML&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;h1&gt;Hello, World!&lt;/h1&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-      </code>
-    </pre>
+        <h1>CODE SAMPLES</h1>
+        <h1>Fetching and Displaying Typed Words</h1>
+        <pre><code class="language-dart">
+Future&lt;List&lt;String&gt;&gt; _fetchWords() async {
+  final userRank = widget.userRank;
+  final wordsData =
+      await rootBundle.loadString('/path/to/your/typing/$userRank/general1.json');
+  final wordsJSON = json.decode(wordsData)['words'] as List&lt;dynamic&gt;;
+  final words = wordsJSON.map((word) =&gt; word as String).toList();
+  final randomIndex = Random().nextInt(words.length);
+  return words;
+}
+</code></pre>
+
+        <h1>Timer Implementation</h1>
+        <pre><code class="language-dart">
+void _startTimer() {
+  _timer = Timer.periodic(const Duration(seconds: 1), (timer) {
+    setState(() {
+      _timeLeft--;
+    });
+
+    if (_timeLeft == 0) {
+      _timer?&gt;cancel();
+      _showGameOverDialog();
+    }
+  });
+}
+
+void _startBoatPositionTimer() {
+  if (_boatPositionTimer == null || !_boatPositionTimer!&lt;isActive) {
+    _boatPositionTimer = Timer.periodic(const Duration(seconds: 4), (_) {
+      _updateBoatPositions();
+    });
+  }
+}
+</code></pre>
+
       </div>
     </div>
   </section>
@@ -722,7 +644,7 @@
     <div class="two-one-wrapper">
       <div class="two-one-description-wrapper">
         <div class="two-one-description">
-          <h3>Quiz Game</h3>
+          <h3>SBEK THOM SCHOLAR: Interactive Quiz Game</h3>
           <p>
             This quiz game tests users' knowledge of vocabulary, grammar, and
             reading comprehension. The concept draws inspiration from Sbek Por,
@@ -732,100 +654,228 @@
           </p>
 
           <div class="video-sample">
-            <iframe
-              width="229"
-              height="469"
-              src="https://www.youtube.com/embed/ChBIaq-JUWk"
-              title="Seoulmate - Low-Fidelity Prototype"
-              frameborder="0"
+            <iframe width="229" height="469" src="https://www.youtube.com/embed/Ryy1JSoBA_Y
+" title="Seoulmate - Low-Fidelity Prototype" frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>
+              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </div>
         </div>
       </div>
       <div class="two-one-content">
-        <h1>Code Samples</h1>
-        <pre>
-      <code class="html">
-&lt;!DOCTYPE html&gt;
-&lt;html lang="en"&gt;
-&lt;head&gt;
-  &lt;meta charset="UTF-8"&gt;
-  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-  &lt;title&gt;Sample HTML&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;h1&gt;Hello, World!&lt;/h1&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-      </code>
-    </pre>
-        <h1>State Management</h1>
-        <pre>
-      <code class="html">
-&lt;!DOCTYPE html&gt;
-&lt;html lang="en"&gt;
-&lt;head&gt;
-  &lt;meta charset="UTF-8"&gt;
-  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-  &lt;title&gt;Sample HTML&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;h1&gt;Hello, World!&lt;/h1&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-      </code>
-    </pre>
-        <h1>State Management</h1>
-        <pre>
-      <code class="html">
-&lt;!DOCTYPE html&gt;
-&lt;html lang="en"&gt;
-&lt;head&gt;
-  &lt;meta charset="UTF-8"&gt;
-  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-  &lt;title&gt;Sample HTML&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;h1&gt;Hello, World!&lt;/h1&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-      </code>
-    </pre>
-        <h1>State Management</h1>
-        <pre>
-      <code class="html">
-&lt;!DOCTYPE html&gt;
-&lt;html lang="en"&gt;
-&lt;head&gt;
-  &lt;meta charset="UTF-8"&gt;
-  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-  &lt;title&gt;Sample HTML&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;h1&gt;Hello, World!&lt;/h1&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-      </code>
-    </pre>
-        <h1>State Management</h1>
-        <pre>
-      <code class="html">
-&lt;!DOCTYPE html&gt;
-&lt;html lang="en"&gt;
-&lt;head&gt;
-  &lt;meta charset="UTF-8"&gt;
-  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-  &lt;title&gt;Sample HTML&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;h1&gt;Hello, World!&lt;/h1&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-      </code>
-    </pre>
+        <h1>CODE SAMPLES</h1>
+        <h1>Fetching Quiz Data from JSONs</h1>
+        <pre><code class="language-dart">
+Future&lt;List&lt;Map&lt;String, dynamic&gt;&gt;&gt; _fetchQuiz() async {
+  final user = (await widget.isar.users.where().findAll()).first;
+  final userRank = user.rank;
+
+  final quizType = &#39;${widget.quizType.toLowerCase()}.json&#39;;
+  final quizData =
+      await rootBundle.loadString(&#39;data/quizzes/beginner/$quizType&#39;);
+  final quizzes = json.decode(quizData)[&#39;quizzes&#39;] as List&lt;dynamic&gt;;
+
+  final randomIndex = Random().nextInt(quizzes.length);
+  final selectedQuestions =
+      quizzes[randomIndex][&#39;questions&#39;] as List&lt;dynamic&gt;;
+
+  _totalQuestions = selectedQuestions.length;
+
+  return selectedQuestions.map((item) {
+    final questionMap = item as Map&lt;String, dynamic&gt;;
+    final answersList = (questionMap[&#39;answers&#39;] as List&lt;dynamic&gt;)
+        .map((answerItem) =&gt; answerItem as Map&lt;String, dynamic&gt;)
+        .toList();
+
+    return {
+      &#39;question&#39;: questionMap[&#39;question&#39;],
+      &#39;answers&#39;: answersList,
+    };
+  }).toList();
+}
+</code></pre>
+
+
+        <h1>User Answer Selection Handling</h1>
+        <pre><code class="language-dart">
+void _selectedAnswer(int index, bool isCorrect) {
+  setState(() {
+    if (_selectedAnswerIndex == index) {
+      _selectedAnswerIndex = null;
+      _showNextButton = false;
+    } else {
+      _selectedAnswerIndex = index;
+      _showNextButton = true;
+
+      if (isCorrect) {
+        _correctAnswers++;
+      }
+    }
+  });
+}
+</code></pre>
+
+        <h1>Moving to the Next Question</h1>
+        <pre><code class="language-dart">
+void _nextQuestion(List&lt;dynamic&gt; questions) {
+  setState(() {
+    if (_currentIndex &lt; questions.length - 1) {
+      _currentIndex++;
+      _selectedAnswerIndex = null;
+      _showNextButton = false;
+    } else {
+      _quizFinished = true;
+    }
+  });
+}
+</code></pre>
+
+        <h1>Applying and Saving the Quiz Score</h1>
+        <pre><code class="language-dart">
+Future&lt;void&gt; _applyScore(double grammarScore, double grammarSpeed,
+    double grammarDifficulty) async {
+  final quizSessions =
+      await widget.isar.grammarGameSessions.where().findAll();
+  final quizSession =
+      quizSessions.isEmpty ? GrammarGameSession() : quizSessions.first;
+
+  quizSession.grammarScore = grammarScore;
+  quizSession.addScore(grammarScore);
+
+  await widget.isar.writeTxn(() async {
+    await widget.isar.grammarGameSessions.put(quizSession);
+  });
+}
+</code></pre>
+
+        <h1>UI Building</h1>
+        <pre><code class="language-dart">
+@override
+Widget build(BuildContext context) {
+  return Consumer&lt;GrammarGameSession&gt;(
+    builder: (context, grammarGameSession, child) {
+      return FutureBuilder&lt;List&lt;Map&lt;String, dynamic&gt;&gt;&gt;(
+        future: _quizFuture,
+        builder: (context, snapshot) {
+          if (snapshot.connectionState == ConnectionState.waiting) {
+            return const Center(child: CircularProgressIndicator());
+          } else if (snapshot.hasError) {
+            return Center(child: Text('Error: ${snapshot.error}'));
+          } else if (!snapshot.hasData || snapshot.data!.isEmpty) {
+            return const Center(child: Text('No quizzes available.'));
+          }
+
+          final questions = snapshot.data!;
+
+          if (_quizFinished) {
+            final double finalScore = (_totalQuestions &gt; 0)
+                ? (_correctAnswers / _totalQuestions) * 100
+                : 0;
+
+            const finalSpeed = 5.0;
+            const grammarDifficulty = 5.0;
+
+            _applyScore(finalScore, finalSpeed, grammarDifficulty);
+            return Center(
+              child: Column(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  const Text(
+                    'Quiz Finished!',
+                    style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+                  ),
+                  Text(
+                    'Your score: ${finalScore.toStringAsFixed(2)}%',
+                    style: const TextStyle(fontSize: 20),
+                  ),
+                  Text(
+                    'Your speed: ${finalSpeed.toStringAsFixed(2)}%',
+                    style: const TextStyle(fontSize: 20),
+                  ),
+                  Text(
+                    'Your rank: ${grammarDifficulty.toStringAsFixed(2)}%',
+                    style: const TextStyle(fontSize: 20),
+                  ),
+                  const SizedBox(height: 20),
+                  Button(
+                    buttonColor: ButtonColor.red,
+                    buttonType: ButtonType.largeAction,
+                    buttonText: "Back to Game Menu",
+                    buttonTextSize: 20.0,
+                    buttonMode: ButtonMode.light,
+                    onTap: () {
+                      Navigator.of(context).pop();
+                    },
+                  ),
+                ],
+              ),
+            );
+          }
+
+          final question = questions[_currentIndex]['question'].toString();
+          final answers = questions[_currentIndex]['answers']
+              as List&lt;Map&lt;String, dynamic&gt;&gt;;
+
+          return Expanded(
+            child: SingleChildScrollView(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: &lt;Widget&gt;[
+                  Padding(
+                    padding: const EdgeInsets.only(left: 16.0),
+                    child: Text(
+                      'Question 1',
+                      style: TextStyle(
+                          fontFamily: 'League Spartan',
+                          fontSize: 18.0,
+                          fontWeight: FontWeight.bold),
+                    ),
+                  ),
+                  Container(
+                    padding: const EdgeInsets.fromLTRB(16.0, 0.0, 16.0, 16.0),
+                    child: Text(
+                      question,
+                      style: const TextStyle(fontSize: 20.0),
+                    ),
+                  ),
+                  Column(
+                    children: answers.asMap().entries.map((entry) {
+                      int index = entry.key;
+                      Map&lt;String, dynamic&gt; answer = entry.value;
+                      bool isCorrect = answer['isCorrect'] == true;
+                      final answerText = answer['answer'].toString();
+
+                      return Button(
+                        buttonColor: ButtonColor.white,
+                        buttonType: ButtonType.quizAnswer,
+                        buttonText: answerText,
+                        buttonMode: ButtonMode.dark,
+                        buttonTextSize: 18.0,
+                        onTap: () {
+                          _selectedAnswer(index, isCorrect);
+                        },
+                      );
+                    }).toList(),
+                  ),
+                  if (_showNextButton)
+                    Button(
+                      buttonColor: ButtonColor.blue,
+                      buttonType: ButtonType.largeAction,
+                      buttonText: "Next Question",
+                      buttonTextSize: 20.0,
+                      buttonMode: ButtonMode.light,
+                      onTap: () => _nextQuestion(questions),
+                    ),
+                ],
+              ),
+            ),
+          );
+        },
+      );
+    },
+  );
+}
+</code></pre>
+
       </div>
     </div>
   </section>
@@ -833,7 +883,7 @@
     <div class="two-one-wrapper">
       <div class="two-one-description-wrapper">
         <div class="two-one-description">
-          <h3>Flashcard Speaking Game</h3>
+          <h3>FLASHCARD FIGHT: Vocabulary Speaking Practice</h3>
           <p>
             Users practice their listening and speaking skills by matching
             flashcards with correct pronunciation. The game uses interactive
@@ -844,100 +894,262 @@
           </p>
 
           <div class="video-sample">
-            <iframe
-              width="229"
-              height="469"
-              src="https://www.youtube.com/embed/ChBIaq-JUWk"
-              title="Seoulmate - Low-Fidelity Prototype"
-              frameborder="0"
+            <iframe width="229" height="469" src="https://www.youtube.com/embed/PfW5UoOQ1Do
+" title="Seoulmate - Low-Fidelity Prototype" frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin"
-              allowfullscreen
-            ></iframe>
+              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           </div>
         </div>
       </div>
       <div class="two-one-content">
-        <h1>Code Samples</h1>
-        <pre>
-      <code class="html">
-&lt;!DOCTYPE html&gt;
-&lt;html lang="en"&gt;
-&lt;head&gt;
-  &lt;meta charset="UTF-8"&gt;
-  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-  &lt;title&gt;Sample HTML&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;h1&gt;Hello, World!&lt;/h1&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-      </code>
-    </pre>
+        <h1>CODE SAMPLES</h1>
         <h1>State Management</h1>
-        <pre>
-      <code class="html">
-&lt;!DOCTYPE html&gt;
-&lt;html lang="en"&gt;
-&lt;head&gt;
-  &lt;meta charset="UTF-8"&gt;
-  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-  &lt;title&gt;Sample HTML&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;h1&gt;Hello, World!&lt;/h1&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-      </code>
-    </pre>
-        <h1>State Management</h1>
-        <pre>
-      <code class="html">
-&lt;!DOCTYPE html&gt;
-&lt;html lang="en"&gt;
-&lt;head&gt;
-  &lt;meta charset="UTF-8"&gt;
-  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-  &lt;title&gt;Sample HTML&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;h1&gt;Hello, World!&lt;/h1&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-      </code>
-    </pre>
-        <h1>State Management</h1>
-        <pre>
-      <code class="html">
-&lt;!DOCTYPE html&gt;
-&lt;html lang="en"&gt;
-&lt;head&gt;
-  &lt;meta charset="UTF-8"&gt;
-  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-  &lt;title&gt;Sample HTML&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;h1&gt;Hello, World!&lt;/h1&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-      </code>
-    </pre>
-        <h1>State Management</h1>
-        <pre>
-      <code class="html">
-&lt;!DOCTYPE html&gt;
-&lt;html lang="en"&gt;
-&lt;head&gt;
-  &lt;meta charset="UTF-8"&gt;
-  &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
-  &lt;title&gt;Sample HTML&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;h1&gt;Hello, World!&lt;/h1&gt;
-&lt;/body&gt;
-&lt;/html&gt;
-      </code>
-    </pre>
+        <pre><code class="language-dart">
+  
+class _GamesFlashcardsPageState extends State&lt;GamesFlashcardsPage&gt; {
+  List&lt;dynamic&gt; _flashcards = [];
+  String _flashcardCategory = &#39;&amp;&#39;;
+  String _currentFlashcardTermEng = &#34;&#34;;
+  String _currentFlashcardKhmerization = &#34;&#34;;
+  String _currentFlashcardTermKhm = &#34;&#34;;
+  String _currentFlashcardRomanization = &#34;&#34;;
+
+  int _currentIndex = 0;
+  bool _isFlipped = false;
+  int _gamePoints = 0;
+  double _playerHealth = 0.0;
+
+  final SpeechToText _speechToText = SpeechToText();
+  bool _speechEnabled = false;
+  final bool _onDevice = true;
+  String lastWords = &#34;&#34;;
+  double _confidenceValue = 0.0;
+
+  @override
+  void initState() {
+    super.initState();
+    _initSpeech();
+    _getFlashcardCategories().then((_) {
+      _getFlashcards();
+    });
+  }
+
+  @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    _playerHealth = (MediaQuery.of(context).size.width - 32) / 2.5;
+  }
+}
+
+
+</code></pre>
+
+
+        <h1>Speech-To-Text Integration</h1>
+        <pre><code class="language-dart">
+void _initSpeech() async {
+  bool speechEnabled = await _speechToText.initialize();
+  setState(() {
+    _speechEnabled = speechEnabled;
+  });
+}
+
+void _startListening() async {
+  final options = SpeechListenOptions(
+      onDevice: _onDevice,
+      listenMode: ListenMode.dictation,
+      partialResults: true,
+      autoPunctuation: true,
+      enableHapticFeedback: true);
+
+  if (_speechEnabled) {
+    await _speechToText.listen(
+      onResult: resultListener,
+      listenFor: const Duration(seconds: 3),
+      pauseFor: const Duration(seconds: 3),
+      listenOptions: options,
+    );
+  } else {
+    ScaffoldMessenger.of(context).showSnackBar(
+      const SnackBar(content: Text(&#39;Speech recognition not initialized&#39;)),
+    );
+  }
+  setState(() {});
+}
+
+void resultListener(SpeechRecognitionResult result) {
+  setState(() {
+    final words = result.recognizedWords.split(&#39; &#39;);
+    lastWords = &#39;${words.last} - ${result.finalResult}&#39;;
+    print(
+        &#34;recognizedWords: ${result.recognizedWords} finalResult: ${result.finalResult}&#34;);
+    _confidenceValue = result.confidence;
+    _checkAnswer();
+  });
+}
+</code></pre>
+
+        <h1>Game Logic</h1>
+        <pre><code class="language-dart">
+void _checkAnswer() {
+  if (lastWords.trim().toLowerCase() ==
+      "${_currentFlashcardTermEng.trim().toLowerCase()} - false") {
+    _gamePoints++;
+    _playerHealth =
+        (_playerHealth - _gamePoints * 10).clamp(0.0, _playerHealth);
+    _nextFlashcard();
+  } else {
+    _startListening();
+  }
+}
+
+void _nextFlashcard() {
+  setState(() {
+    _currentIndex = (_currentIndex + 1) % _flashcards.length;
+    print(_currentIndex);
+    _currentFlashcardTermEng = _flashcards[_currentIndex][&#39;english_word&#39;];
+    _currentFlashcardTermKhm = _flashcards[_currentIndex][&#39;khmer_word&#39;];
+    _isFlipped = false;
+    lastWords = &#34;&#34;;
+  });
+}
+</code></pre>
+
+        <h1>Data Management</h1>
+        <pre><code class="language-dart">
+Future&lt;String&gt; _getFlashcardCategories() async {
+  final String categoriesResponse = await rootBundle
+      .loadString(&#39;data/vocabulary/vocabulary_categories.json&#39;);
+  final Map&lt;String, dynamic&gt; categoriesData = json.decode(categoriesResponse);
+  final List&lt;dynamic&gt; vocabCategories =
+      categoriesData[&#34;vocabulary_categories&#34;];
+  final randomIndex = Random().nextInt(vocabCategories.length);
+  final selectedCategory = vocabCategories[randomIndex].toString();
+
+  setState(() {
+    _flashcardCategory = selectedCategory;
+  });
+
+  return _flashcardCategory;
+}
+
+Future&lt;List&lt;dynamic&gt;&gt; _getFlashcards() async {
+  final String flashcardsResponse =
+      await rootBundle.loadString(&#39;data/vocabulary/$_flashcardCategory.json&#39;);
+  final List&lt;dynamic&gt; flashcards = json.decode(flashcardsResponse);
+
+  setState(() {
+    _flashcards = flashcards;
+    if (_flashcards.isNotEmpty) {
+      _currentFlashcardTermEng = _flashcards[_currentIndex][&#39;english_word&#39;];
+      _currentFlashcardKhmerization =
+          _flashcards[_currentIndex][&#39;khmerization&#39;];
+      _currentFlashcardTermKhm = _flashcards[_currentIndex][&#39;khmer_word&#39;];
+      _currentFlashcardRomanization =
+          _flashcards[_currentIndex][&#39;romanization&#39;];
+    }
+  });
+
+  return flashcards;
+}
+</code></pre>
+
+        <h1>Healthbar Implementation</h1>
+        <pre><code class="language-dart">
+class HealthBar extends StatelessWidget {
+  final double playerHealth;
+  final double opponentHealth;
+  final int gamePoints;
+
+  const HealthBar({
+    Key? key,
+    required this.playerHealth,
+    required this.opponentHealth,
+    required this.gamePoints,
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return SizedBox(
+      width: double.infinity,
+      child: Row(
+        mainAxisAlignment:
+            MainAxisAlignment.spaceBetween, 
+        children: [
+          Row(
+            children: [
+              Container(
+                height: 50.0,
+                width: 36.0,
+                margin: EdgeInsets.only(right: 2.0),
+                decoration: BoxDecoration(
+                  border: Border.all(
+                    width: 2.0,
+                    color: Colors.white,
+                  ),
+                ),
+              ),
+              Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Container(
+                    decoration: BoxDecoration(
+                      boxShadow: [
+                        BoxShadow(
+                          color: Colors.black
+                              .withOpacity(0.5),
+                          blurRadius: 1.0,
+                          offset: Offset(2, 2),
+                        ),
+                      ],
+                      border: Border.all(
+                        width: 2.0,
+                        color: Color(0xFF15e1cc),
+                      ),
+                    ),
+                    child: Row(
+                      children: List.generate(5, (index) {
+                        return Container(
+                          height: 14.0,
+                          width: 22.0,
+                          margin: EdgeInsets.symmetric(
+                              vertical: 1.0, horizontal: 1.0),
+                          color: Color(0xFF15e1cc),
+                        );
+                      }),
+                    ),
+                  ),
+                  SizedBox(height: 4.0),
+                  RichText(
+                    text: TextSpan(
+                      text: &#39;PLAYER&#39;,
+                      style: const TextStyle(
+                        fontFamily: &#39;Leaguespartan&#39;,
+                        fontSize: 20,
+                        fontWeight: FontWeight.bold,
+                        fontStyle: FontStyle.italic,
+                        color: Colors.white,
+                        shadows: [
+                          Shadow(
+                            offset: Offset(2.0, 2.0),
+                            color: Colors.black,
+                            blurRadius: 0,
+                          ),
+                        ],
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ],
+          ),
+        ],
+      ),
+    );
+  }
+}
+</code></pre>
+
       </div>
     </div>
   </section>
@@ -962,16 +1174,10 @@
       </div>
     </div>
     <div class="intro-visual">
-      <iframe
-        width="300"
-        height="614"
-        src="https://www.youtube.com/embed/ChBIaq-JUWk"
-        title="Seoulmate - Low-Fidelity Prototype"
-        frameborder="0"
+      <iframe width="300" height="614" src="https://www.youtube.com/embed/DQd6SplnQxM
+" title="Seoulmate - Low-Fidelity Prototype" frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"
-        allowfullscreen
-      ></iframe>
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
   </section>
   <section id="intro">
@@ -993,16 +1199,11 @@
       </div>
     </div>
     <div class="intro-visual">
-      <iframe
-        width="300"
-        height="614"
-        src="https://www.youtube.com/embed/ChBIaq-JUWk"
-        title="Seoulmate - Low-Fidelity Prototype"
-        frameborder="0"
+      <iframe width="300" height="614" src="https://www.youtube.com/embed/rMqS9FLTWW8
+
+" title="Seoulmate - Low-Fidelity Prototype" frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"
-        allowfullscreen
-      ></iframe>
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
   </section>
   <section id="intro">
@@ -1024,16 +1225,10 @@
       </div>
     </div>
     <div class="intro-visual">
-      <iframe
-        width="300"
-        height="614"
-        src="https://www.youtube.com/embed/ChBIaq-JUWk"
-        title="Seoulmate - Low-Fidelity Prototype"
-        frameborder="0"
+      <iframe width="250" height="512" src="https://www.youtube.com/embed/ChBIaq-JUWk"
+        title="Seoulmate - Low-Fidelity Prototype" frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"
-        allowfullscreen
-      ></iframe>
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
   </section>
 </template>
@@ -1106,6 +1301,7 @@ section {
 .title.study {
   background-image: linear-gradient(to bottom, #00a94c, #005700);
 }
+
 .title.games {
   background-image: linear-gradient(to bottom, #ff7283, #d91e35);
 }
@@ -1204,10 +1400,17 @@ section {
 
 /* study */
 .video-sample {
-  padding: 32px 0px;
+  padding: 8px 0px;
+
   width: 100%;
   text-align: center;
 }
+
+iframe {
+  border-radius: 36px;
+  overflow: hidden;
+}
+
 
 /* two-one flex preset */
 .two-one-wrapper {
@@ -1223,7 +1426,6 @@ section {
   flex-direction: column;
   flex: 1;
   height: 100%;
-
   padding: 16px 0px;
 }
 

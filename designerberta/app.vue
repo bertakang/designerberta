@@ -11,6 +11,8 @@
 
 import { DotLottieVue } from '@lottiefiles/dotlottie-vue';
 
+
+
 export default {
   components: {
     DotLottieVue,
