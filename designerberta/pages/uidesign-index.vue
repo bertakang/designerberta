@@ -1,127 +1,14 @@
 <template>
-  <section class="select">
-    <div class="header">
-      <h1>UI Design Projects</h1>
-    </div>
-    <div class="uidesign-wrapper">
-      <div class="intro">
-        <h2>Pick a project to explore.</h2>
-      </div>
-      <div class="uidesign-grid">
-        <div class="project">Panyavon</div>
-        <div class="project">TAE Life Sciences</div>
-        <div class="project">Seoulmate</div>
-      </div>
-    </div>
-  </section>
+  <FieldIndex title="UX Research & UI Design Projects" :projects="projectList" />
 </template>
 
-<script>
-import { onMounted } from "vue";
-import anime from "animejs";
-import { DotLottieVue } from "@lottiefiles/dotlottie-vue";
+<script setup>
+import FieldIndex from '~/layouts/field-index.vue';
 
-export default {
-  components: {
-    DotLottieVue,
-  },
-  setup() {
-    const animateGrid = () => {
-      anime
-        .timeline()
-        .add({
-          targets: ".uidesign-grid .project",
-          translateX: ["-100vw", "0vw"],
-          easing: "easeInSine",
-          duration: 1000,
-          delay: anime.stagger(200, { grid: [3, 2], from: "center" }),
-        })
-        .add({
-          targets: ".uidesign-wrapper .intro",
-          opacity: [0, 1],
-          easing: "easeInSine",
-          duration: 900,
-        });
-    };
 
-    onMounted(() => {
-      animateGrid();
-    });
-  },
-};
+const projectList = [
+  { name: "Panyavon", link: "/frontend/frontend-panyavon" },
+  { name: "TAE Life Sciences", link: "/uxresearch/ux-tae-life-sciences" },
+  { name: "Seoulmate", link: "/uxresearch/ux-seoulmate" },
+];
 </script>
-
-<style>
-@keyframes rainbowBorder {
-  0% {
-    border-color: #00adee;
-  }
-  20% {
-    border-color: #f7941d;
-  }
-  40% {
-    border-color: #40b449;
-  }
-  60% {
-    border-color: #d876af;
-  }
-  80% {
-    border-color: #f9f07f;
-  }
-  100% {
-    border-color: #00adee;
-  }
-}
-
-section {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-  padding: 0px 32px;
-}
-
-.header {
-  height: 10vh;
-}
-
-.uidesign-wrapper {
-  display: flex;
-  flex-direction: row;
-  height: 90vh;
-  width: 100%;
-}
-
-.intro {
-  display: flex;
-  align-items: center;
-  padding: 0px 32px;
-  height: 90%;
-  width: 50%;
-}
-
-.intro h2 {
-  font-size: 64px;
-}
-
-.uidesign-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  height: 90%;
-  width: 50%;
-  gap: 16px;
-
-}
-
-.project {
-  display: flex;
-  border: 1px solid #40b449;
-  justify-content: center;
-  align-items: center;
-}
-
-.project:hover {
-  animation: rainbowBorder 1.5s linear infinite;
-  border-width: 2px;
-}
-</style>

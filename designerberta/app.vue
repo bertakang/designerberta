@@ -29,6 +29,7 @@ body {
   height: 100%;
   font-family: 'Manrope', sans-serif;
   color: aliceblue;
+
 }
 
 section {

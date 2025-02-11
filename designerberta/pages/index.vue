@@ -4,24 +4,30 @@
         height: 100%;
         width: 100%;
         transform: scale(1.8);
+        transform-origin: center; 
         border: 1px dashed red;
         justify-self: center;
       " autoplay loop src="/background.json" />
   </div>
-  <section id="home">
+  <!-- <section id="home">
     <div class="logo-wrapper">
       <Logo class="logo" />
     </div>
-  </section>
+  </section> -->
   <section id="about">
     <div class="about-wrapper">
-      <div class="intro">Hello, my name is Berta.</div>
+      <div class="about-intro">
+        <h1>Hello, my name is Berta.</h1>
+      </div>
       <div class="intro-message">
-        <span style="font-weight: bold; font-size: 36px;  font-family: Vollkorn, serif; line-height: 1.6;">Welcome
+        <span
+          style="font-weight: bold; font-size: 36px;  font-family: Vollkorn, serif; line-height: 1.2; margin-bottom: 16px;">Welcome
           to my portfolio.</span>
-        Years ago, I was a civil engineer-in-training, avid stock trader, and freelance graphic designer. Now I
+        Really into graphic arts as a kid. Started my career as a civil engineer-in-training, and then spent a
+        handful of years learning to trade on the NASDAQ. Now I
         do end-to-end web and mobile development, with UX, UI and asset design
-        included. <br /><br />I'm not a cookie-cutter designer engineer. If you like that, find me here.
+        included. <br /><br />I don't have preferences for any of my above skill sets. If you like all that,
+        <NuxtLink to="mailto:bertakang@gmail.com" class="email-link">contact me here.</NuxtLink>
       </div>
     </div>
     <div class="septagon">
@@ -32,21 +38,14 @@
   <section id="services">
     <h1>Services</h1>
     <div class="services-grid">
-      <Service service-header="UX Research"
-        service-description="User Experience is such a delicate and constantly evolving field. Providing clear insight and actionable strategy is always the goal, but finding those two or three questions that others in your field have failed to ask will always set your project up with a competitive edge. Whether it’s cross-continent field work, becoming a member of the target audience myself or simply conducting interviews and usability tests – it’s comfortably within the bounds of what I’m willing to research."
-        service-page="uxresearch-index" />
-
-      <Service service-header="UI Design"
-        service-description="I’m a total nerd about color palettes, typography pairings and interaction design. I’m happy to spend many hours consuming mood board-esque media relevant to my projects before knocking out a prototype in one or two goes. The moment of finding that balance between experimental and usable is a sweet spot that feels like a war was won. I usually spend about 20 minutes considering its engineering feasibility before going all in on my Figma files."
+      <Service service-header="UX Research & UI Design"
+        service-description="UX is always evolving, and the key to a competitive edge is asking the right overlooked questions. Whether it’s fieldwork, usability tests, or fully immersing myself in the audience, I go all in on research. I’m also a total nerd for color palettes, typography, and interaction design—spending hours on mood boards before knocking out a prototype. Hitting that sweet spot between experimental and usable feels like winning a war, and I always give engineering feasibility a quick 20-minute reality check before committing to my Figma files."
         service-page="uidesign-index" />
-      <Service service-header="Front-End Development"
-        service-description="For web development, I like Vue.js and especially its framework Nuxt for its server-side rendering and SEO capabilities. If the website is simple, I stay with clean HTML, CSS, and Javascript (with Anime.js as my animation library). For mobile, I use Flutter to keep my apps cross-platform. Admittedly, my second or third draft of my prototypes end up being straight up designed in whatever front-end framework I chose to save time for my clients."
+      <Service service-header="Front & Back-End Dev"
+        service-description="I mostly build with Vue and Nuxt for web (love the SEO perks) and stick to clean HTML, CSS, and JavaScript (Anime.js for animations) when things are simple. For mobile, I use Flutter to keep things cross-platform. Honestly, by my second or third prototype, I’m usually designing straight in code to save time. On the backend, I prefer NoSQL but adapt to what fits the project. I’ve worked with Django, Firebase, and my underrated favorite, Isar. Python is my go-to, and wearing so many dev hats has taught me to be mindful of when to lock in and when to let questions answer themselves first."
         service-page="frontend-index" />
 
-      <Service service-header="Back-End Development"
-        service-description="I have a preference for NoSQL when I’m putting together backends, although I’m aware every project has its own needs. I’ve used Django, Firebase, and a little-known favorite of mine: Isar. My preferred language for this type of work is Python. Wearing so many hats as a developer, I’ve had to learn what pertinent information is and to avoid finalizing the database design too much earlier than the front-end."
-        service-page="backend-index" />
-      <Service service-header="Search Engine Optimization"
+      <Service service-header="SEO"
         service-description="SEO is a fairly new major interest of mine, as is the art of marketing. I guess we can call SEO an adtech tool. I’ve worked in Google Lighthouse, PageSpeed insights, and Ahrefs into my previous work. I gave my clients XML Sitemaps, robots.txt files, cleaned up their HTML tags and redirected broken links to make sure we didn’t unnecessarily lose any ranking. This is a field I plan to improve rapidly at."
         service-page="seo-index" />
       <Service service-header="Digital Art"
@@ -69,8 +68,17 @@ export default {
     Service,
     Contact,
   },
-};
+  methods: {
+    beforeRouteLeave(to, from, next) {
+      if (animationInstance) {
+        animationInstance.destroy();
+      }
+      next();
+    }
+  }
+}
 </script>
+
 
 <style>
 p {
@@ -80,6 +88,7 @@ p {
 section {
   min-height: 100vh;
 }
+
 
 .background {
   position: fixed;
@@ -98,7 +107,6 @@ section {
   width: 100%;
   align-content: center;
   justify-items: center;
-
   z-index: 1000;
 }
 
@@ -120,7 +128,7 @@ section {
   height: 100%;
 }
 
-.intro {
+.about-intro {
   display: flex;
   flex: 1;
   padding: 0px 16px;
@@ -145,9 +153,23 @@ section {
   flex-grow: 1;
 }
 
+.email-link {
+  text-decoration: none;
+  color: #d876af;
+  z-index: 10;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.email-link:hover {
+  color: aliceblue;
+  cursor: pointer;
+}
+
 .septagon {
   position: absolute;
   width: 100%;
+
 }
 
 /*services section*/
@@ -161,9 +183,60 @@ section {
 .services-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: auto;
   gap: 16px;
-
   z-index: 11;
+
+}
+
+@media screen and (max-width: 667px) {
+
+  .logo-wrapper,
+  .background,
+  .septagon {
+    display: none;
+  }
+
+  /*about section*/
+
+  #about {
+    padding: 0px 12px;
+  }
+
+  .about-wrapper {
+    width: 100%;
+    flex-direction: column;
+
+
+  }
+
+  .about-intro {
+    width: 100%;
+    font-size: 36px;
+    text-align: left;
+    line-height: 1.2;
+    margin-bottom: 24px;
+    padding: 0px 0px;
+
+  }
+
+  .intro-message {
+    padding: 0px 0px;
+  }
+
+  /*services section*/
+  #services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 12px;
+  }
+
+
+  .services-grid {
+
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
 }
 </style>

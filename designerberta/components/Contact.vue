@@ -68,30 +68,14 @@
   </footer>
 </template>
 
-<script setup>
-// Import and add necessary icons if needed
-// import { faInstagram, faLinkedin, faYoutube, faGoogle } from '@fortawesome/free-brands-svg-icons';
-// import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
-// library.add(faInstagram, faLinkedin, faYoutube, faGoogle);
-</script>
 
 <style scoped>
 footer {
   padding: 16px 32px;
 }
 
-button {
-  color: #1e1e1e;
-  background-color: #00adee;
-  padding: 8px 12px;
-  border-radius: 16px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 600;
-  font-size: 16px;
-}
-
 .see-below {
-  padding: 0px 32px;
+  padding-left: 32px;
 }
 
 .nav-link {
@@ -113,7 +97,6 @@ button {
   align-items: space-between;
   justify-content: space-between;
   justify-items: space-between;
-
 }
 
 .contact-navbar {
@@ -135,7 +118,6 @@ button {
 .info-wrapper {
   display: flex;
   flex: 5;
-
   flex-direction: row;
 
 }
@@ -176,36 +158,39 @@ button {
 }
 
 @media screen and (max-width: 667px) {
+
+  /*see below*/
+  .see-below {
+    padding-left: 12px;
+  }
+
+  /*contact info*/
+
   .contact-wrapper {
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    padding: 0px 12px;
+    height: max-content;
+
+    margin-bottom: 32px;
   }
 
   .contact-nav-links-wrapper {
     display: flex;
     flex-direction: row;
-    gap: 20px;
-    margin-top: 32px;
-    margin-bottom: 32px;
+
   }
 
-  .address-wrapper {
-    display: flex;
-    flex-direction: column;
+
+  .portfolio-wrapper {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 0px;
   }
 
-  .address {
-    padding: 8px;
+  /* footer disclaimer*/
+  footer {
+    padding: 24px 12px;
   }
-}
-
-.nav-link i {
-  font-size: 36px;
-  color: #40b449;
-}
-
-.nav-link:hover i {
-  color: #00adee;
 }
 </style>
