@@ -1,8 +1,8 @@
 <template>
   <section class="select">
     <div class="header">
-        <h1>Back-End Engineering Projects</h1>
-      </div>
+      <h1>Back-End Engineering Projects</h1>
+    </div>
     <div class="backend-wrapper">
       <div class="intro">
         <h2>Pick a project to explore.</h2>
@@ -27,19 +27,19 @@ export default {
   setup() {
     const animateGrid = () => {
       anime.timeline()
-      .add({
-        targets: '.backend-grid .project', 
-        translateX: ['-100vw', '0vw'], 
-        easing: 'easeInSine',
-        duration: 1000,
-        delay: anime.stagger(200, { grid: [3, 2], from: 'center' }) 
-      })
-      .add({
-        targets: '.backend-wrapper .intro', 
-        opacity: [0, 1], 
-        easing: 'easeInSine',
-        duration: 900,
-      })
+        .add({
+          targets: '.backend-grid .project',
+          translateX: ['-100vw', '0vw'],
+          easing: 'easeInSine',
+          duration: 1000,
+          delay: anime.stagger(200, { grid: [3, 2], from: 'center' })
+        })
+        .add({
+          targets: '.backend-wrapper .intro',
+          opacity: [0, 1],
+          easing: 'easeInSine',
+          duration: 900,
+        })
     };
 
     onMounted(() => {
@@ -51,19 +51,36 @@ export default {
 
 <style>
 @keyframes rainbowBorder {
-  0% { border-color: #00adee; }
-  20% { border-color: #f7941d; }
-  40% { border-color: #40b449; } 
-  60% { border-color: #d876af; } 
-  80% { border-color: #f9f07f; }  
-  100% { border-color: #00adee; } 
+  0% {
+    border-color: #00adee;
+  }
+
+  20% {
+    border-color: #f7941d;
+  }
+
+  40% {
+    border-color: #40b449;
+  }
+
+  60% {
+    border-color: #d876af;
+  }
+
+  80% {
+    border-color: #f9f07f;
+  }
+
+  100% {
+    border-color: #00adee;
+  }
 }
 
 section {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  padding: 0px 32px;
+  /* padding: 0px 32px; */
 }
 
 
@@ -103,7 +120,7 @@ section {
   border: 1px solid #40b449;
   justify-content: center;
   align-items: center;
-  
+
 }
 
 .project:hover {

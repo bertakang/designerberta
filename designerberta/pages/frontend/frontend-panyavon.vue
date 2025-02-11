@@ -1174,7 +1174,8 @@ class HealthBar extends StatelessWidget {
       </div>
     </div>
     <div class="intro-visual">
-      <iframe width="300" height="614" src="https://www.youtube.com/embed/-KgbfX0q8UE" title="Seoulmate - Low-Fidelity Prototype" frameborder="0"
+      <iframe width="300" height="614" src="https://www.youtube.com/embed/-KgbfX0q8UE"
+        title="Seoulmate - Low-Fidelity Prototype" frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
@@ -1259,6 +1260,13 @@ export default {
 section {
   min-height: 100vh;
   padding: 0px 32px;
+}
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  max-width: 100%;
 }
 
 /* intro */
@@ -1470,5 +1478,74 @@ iframe {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   gap: 16px;
+}
+
+@media screen and (max-width: 667px) {
+  section {
+    padding: 0px 12px;
+  }
+
+  /* intro section */
+  #intro {
+    flex-direction: column;
+    height: max-content;
+    padding: 16px 12px;
+  }
+
+  .intro-text {
+    padding: 0px 0px;
+  }
+
+  .title {
+    display: flex;
+    font-size: 64px;
+    margin-top: 48px;
+  }
+
+  /* goal section */
+  #goal {
+    padding: 16px 12px;
+  }
+
+  .description-wrapper {
+    border: 3px dashed pink;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .card-wrapper {
+    padding: 0px 0px;
+  }
+
+  .cards-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  /* tech stack and app architecture */
+
+
+  .techstack-and-apparchitecture-wrapper {
+    flex-direction: column;
+    height: max-content;
+  }
+
+
+
+  .app-architecture {
+    padding: 0px 0px;
+  }
+
+  /* scrolling code sections */
+  .two-one-wrapper {
+    flex-direction: column;
+  }
+
+  .two-one-description-wrapper {
+    height: max-content;
+    position: relative;
+    padding-right: 0px;
+  }
 }
 </style>

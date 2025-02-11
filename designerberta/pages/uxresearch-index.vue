@@ -1,17 +1,12 @@
 <template>
   <div class="background">
-    <DotLottieVue
-      style="
+    <DotLottieVue style="
         height: 100%;
         width: 100%;
         transform: scale(1.8);
         border: 1px dashed red;
         justify-self: center;
-      "
-      autoplay
-      loop
-      src="/background.json"
-    />
+      " autoplay loop src="/background.json" />
   </div>
   <section class="select">
     <div class="header">
@@ -22,13 +17,9 @@
         <h2>Pick a project to explore.</h2>
       </div>
       <div class="uxresearch-grid">
-        <NuxtLink class="project" to="/uxresearch/ux-panyavon"
-          >Panyavon</NuxtLink
-        >
+        <NuxtLink class="project" to="/uxresearch/ux-panyavon">Panyavon</NuxtLink>
 
-        <NuxtLink class="project" to="/uxresearch/ux-seoulmate"
-          >Seoulmate</NuxtLink
-        >
+        <NuxtLink class="project" to="/uxresearch/ux-seoulmate">Seoulmate</NuxtLink>
       </div>
     </div>
   </section>
@@ -75,18 +66,23 @@ export default {
   0% {
     border-color: #00adee;
   }
+
   20% {
     border-color: #f7941d;
   }
+
   40% {
     border-color: #40b449;
   }
+
   60% {
     border-color: #d876af;
   }
+
   80% {
     border-color: #f9f07f;
   }
+
   100% {
     border-color: #00adee;
   }
@@ -94,7 +90,7 @@ export default {
 
 section {
   min-height: 100vh;
-  padding: 0px 32px;
+  /* padding: 0px 32px;  get rid of this it's messing up the other sections*/
 }
 
 .background {
