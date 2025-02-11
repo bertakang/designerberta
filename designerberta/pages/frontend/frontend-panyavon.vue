@@ -1174,8 +1174,7 @@ class HealthBar extends StatelessWidget {
       </div>
     </div>
     <div class="intro-visual">
-      <iframe width="300" height="614" src="https://www.youtube.com/embed/DQd6SplnQxM
-" title="Seoulmate - Low-Fidelity Prototype" frameborder="0"
+      <iframe width="300" height="614" src="https://www.youtube.com/embed/-KgbfX0q8UE" title="Seoulmate - Low-Fidelity Prototype" frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>

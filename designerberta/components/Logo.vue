@@ -1,8 +1,8 @@
 <template>
     <div ref="logoContainer">
         <div class="navbar">
-    
-  </div>
+
+        </div>
         <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 575.51 156.44">
             <path class="cls-1" d="M507.2,140.6a69.06,69.06,0,0,0,0-138.1" transform="translate(-0.89 0.05)" />
             <path class="cls-1" d="M507.2,124.3a52.85,52.85,0,0,0,0-105.7" transform="translate(-0.89 0.05)" />
@@ -153,10 +153,10 @@
         </svg>
     </div>
     <div ref="blocksWrapper" class="blocks-wrapper">
-    <div v-for="n in 45" :key="n" class="block"></div>
+        <div v-for="n in 45" :key="n" class="block"></div>
 
-  </div>
-  <!-- <button @click="animateGrid">My Work</button> -->
+    </div>
+    <!-- <button @click="animateGrid">My Work</button> -->
 </template>
 
 
@@ -168,45 +168,45 @@ const logo = ref(null);
 const blocksWrapper = ref(null);
 
 const animateLogo = () => {
-  anime.timeline()
-    .add({
-      targets: '.cls-1, .cls-2, .cls-3, .cls-4, .cls-5',
-      strokeDashoffset: [anime.setDashoffset, 0],
-      easing: 'easeInOutSine',
-      duration: 2000
-    })
-    .add({
-      targets: ['#the-portfolio', '#stars'],
-      opacity: 1,
-      duration: 500,
-      easing: 'easeInOutQuad',
-      offset: '600' 
-      
-    });
+    anime.timeline()
+        .add({
+            targets: '.cls-1, .cls-2, .cls-3, .cls-4, .cls-5',
+            strokeDashoffset: [anime.setDashoffset, 0],
+            easing: 'easeInOutSine',
+            duration: 2000
+        })
+        .add({
+            targets: ['#the-portfolio', '#stars'],
+            opacity: 1,
+            duration: 500,
+            easing: 'easeInOutQuad',
+            offset: '600'
+
+        });
 };
 
 const animateGrid = () => {
-      anime({
+    anime({
         targets: '.blocks-wrapper .block',
         scale: [
-          { value: 0.1, easing: 'easeOutSine', duration: 500 },
-          { value: 1, easing: 'easeInOutQuad', duration: 1200 }
+            { value: 0.1, easing: 'easeOutSine', duration: 500 },
+            { value: 1, easing: 'easeInOutQuad', duration: 1200 }
         ],
-        delay: anime.stagger(200, { grid: [9, 5], from: 'center' })
-      });
-    };
+
+    });
+};
 
 export default {
-  setup() {
-    onMounted(() => {
-      animateLogo();
-    });
+    setup() {
+        onMounted(() => {
+            animateLogo();
+        });
 
-    return {
-      logo,
-      animateGrid
-    };
-  }
+        return {
+            logo,
+            animateGrid
+        };
+    }
 };
 
 </script>
@@ -269,23 +269,24 @@ export default {
 }
 
 .navbar {
-  position: relative;
-  z-index: 2;
+    position: relative;
+    z-index: 2;
 }
 
 
 .blocks-wrapper {
-  display: grid;
-  height: 100vh;
-  width: 100%;
-  grid-template-columns: repeat(9, 1fr);
-  grid-template-rows: repeat(5, 1fr);
-  position: absolute;
-  z-index: 0;
+    display: grid;
+    height: 100vh;
+    width: 100%;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    position: absolute;
+    z-index: 0;
 }
 
 .block {
-  border: 1.2px solid #40b449;
-  transform: scale(0); /* Start each block hidden */
+    border: 1.2px solid #40b449;
+    transform: scale(0);
+    /* Start each block hidden */
 }
 </style>

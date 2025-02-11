@@ -17,12 +17,11 @@
     <div class="about-wrapper">
       <div class="intro">Hello, my name is Berta.</div>
       <div class="intro-message">
-        <span
-          style="font-weight: bold; font-size: 36px;  font-family: Vollkorn, serif; line-height: 1.6;">Welcome
+        <span style="font-weight: bold; font-size: 36px;  font-family: Vollkorn, serif; line-height: 1.6;">Welcome
           to my portfolio.</span>
-         Years ago, I was a civil engineer-in-training, avid stock trader, and freelance graphic designer. Now I
+        Years ago, I was a civil engineer-in-training, avid stock trader, and freelance graphic designer. Now I
         do end-to-end web and mobile development, with UX, UI and asset design
-        included. <br/><br/>I'm not a cookie-cutter designer engineer. If you like that, find me here.
+        included. <br /><br />I'm not a cookie-cutter designer engineer. If you like that, find me here.
       </div>
     </div>
     <div class="septagon">
@@ -50,7 +49,7 @@
       <Service service-header="Search Engine Optimization"
         service-description="SEO is a fairly new major interest of mine, as is the art of marketing. I guess we can call SEO an adtech tool. I’ve worked in Google Lighthouse, PageSpeed insights, and Ahrefs into my previous work. I gave my clients XML Sitemaps, robots.txt files, cleaned up their HTML tags and redirected broken links to make sure we didn’t unnecessarily lose any ranking. This is a field I plan to improve rapidly at."
         service-page="seo-index" />
-        <Service service-header="Digital Art"
+      <Service service-header="Digital Art"
         service-description="This is the field closest to my passion, and the skillset that challenges me the most. Invaluably, drawing and painting taught me patience, perspective, how to change my frame of mind, and empathy for those who have practiced hard at something. I’m still a rookie, but please come and explore my art."
         service-page="seo-index" />
     </div>
@@ -85,18 +84,18 @@ section {
 .background {
   position: fixed;
   height: 100vh;
-  width: 100%;
+  width: 100vw;
   overflow: hidden;
   z-index: 10;
+
 }
 
 /* home section */
 .logo-wrapper {
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   align-content: center;
   z-index: 1000;
-  padding: 0px 32px;
 }
 
 .logo {
@@ -118,7 +117,7 @@ section {
   justify-content: center;
   align-items: center;
   width: 70vw;
-  height: 100%; 
+  height: 100%;
 }
 
 .intro {
@@ -138,7 +137,7 @@ section {
 .intro-message {
   display: flex;
   flex-direction: column;
- 
+
   flex: 1;
   padding: 0px 16px;
   font-size: 24px;
