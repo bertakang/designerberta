@@ -1,6 +1,6 @@
 <!-- app.vue -->
 <template>
-  <div>   
+  <div>
 
     <NuxtLayout />
 
@@ -10,8 +10,7 @@
 <script>
 
 import { DotLottieVue } from '@lottiefiles/dotlottie-vue';
-
-
+// main.js or main.ts
 
 export default {
   components: {
@@ -37,6 +36,4 @@ section {
   position: relative;
   margin-bottom: 64px;
 }
-
-
 </style>

@@ -91,18 +91,18 @@ section {
 }
 
 /* home section */
+
+
 .logo-wrapper {
   height: 100vh;
   width: 100%;
   align-content: center;
+  justify-items: center;
+
   z-index: 1000;
 }
 
-.logo {
-  width: 90%;
-  justify-self: center;
-  align-self: center;
-}
+
 
 
 /* about section */
@@ -155,6 +155,7 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 0px 32px;
 }
 
 .services-grid {
@@ -162,7 +163,7 @@ section {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   gap: 16px;
-  padding: 0px 16px;
+
   z-index: 11;
 }
 </style>

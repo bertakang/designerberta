@@ -1,5 +1,5 @@
 <template>
-    <div ref="logoContainer">
+    <div ref="logoContainer" class="logo-container">
         <div class="navbar">
 
         </div>
@@ -213,6 +213,10 @@ export default {
 
 
 <style scoped>
+.logo-container {
+    width: 90%;
+}
+
 #the-portfolio,
 #stars {
     opacity: 0;
