@@ -9,11 +9,11 @@
         justify-self: center;
       " autoplay loop src="/background.json" />
   </div>
-  <!-- <section id="home">
+  <section id="home">
     <div class="logo-wrapper">
       <Logo class="logo" />
     </div>
-  </section> -->
+  </section>
   <section id="about">
     <div class="about-wrapper">
       <div class="about-intro">
@@ -44,13 +44,12 @@
       <Service service-header="Front & Back-End Dev"
         service-description="I mostly build with Vue and Nuxt for web (love the SEO perks) and stick to clean HTML, CSS, and JavaScript (Anime.js for animations) when things are simple. For mobile, I use Flutter to keep things cross-platform. Honestly, by my second or third prototype, I’m usually designing straight in code to save time. On the backend, I prefer NoSQL but adapt to what fits the project. I’ve worked with Django, Firebase, and my underrated favorite, Isar. Python is my go-to, and wearing so many dev hats has taught me to be mindful of when to lock in and when to let questions answer themselves first."
         service-page="frontend-index" />
-
       <Service service-header="SEO"
         service-description="SEO is a fairly new major interest of mine, as is the art of marketing. I guess we can call SEO an adtech tool. I’ve worked in Google Lighthouse, PageSpeed insights, and Ahrefs into my previous work. I gave my clients XML Sitemaps, robots.txt files, cleaned up their HTML tags and redirected broken links to make sure we didn’t unnecessarily lose any ranking. This is a field I plan to improve rapidly at."
         service-page="seo-index" />
       <Service service-header="Digital Art"
         service-description="This is the field closest to my passion, and the skillset that challenges me the most. Invaluably, drawing and painting taught me patience, perspective, how to change my frame of mind, and empathy for those who have practiced hard at something. I’m still a rookie, but please come and explore my art."
-        service-page="seo-index" />
+        service-page="pages/digital-art/digital-art.vue" />
     </div>
   </section>
 </template>
@@ -189,7 +188,7 @@ section {
 
 }
 
-@media screen and (max-width: 667px) {
+@media screen and (max-width: 1366px) {
 
   .logo-wrapper,
   .background,

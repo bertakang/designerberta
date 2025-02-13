@@ -1480,7 +1480,7 @@ iframe {
   gap: 16px;
 }
 
-@media screen and (max-width: 667px) {
+@media screen and (max-width: 1366px) {
   section {
     padding: 0px 12px;
   }
@@ -1508,7 +1508,6 @@ iframe {
   }
 
   .description-wrapper {
-    border: 3px dashed pink;
     display: flex;
     flex-direction: column;
 

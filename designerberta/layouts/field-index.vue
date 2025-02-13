@@ -18,7 +18,6 @@
 
 <script setup>
 import { onMounted } from "vue";
-import { onBeforeRouteLeave } from "vue-router"; // Import the lifecycle hook
 import anime from "animejs";
 
 const props = defineProps({
@@ -54,12 +53,6 @@ onMounted(() => {
 });
 
 
-onBeforeRouteLeave((to, from, next) => {
-  if (animationInstance) {
-    animationInstance.destroy();
-  }
-  next();
-});
 </script>
 
 
