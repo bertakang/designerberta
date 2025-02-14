@@ -1,19 +1,25 @@
 <template>
   <div class="background">
     <DotLottieVue style="
-        height: 100%;
-        width: 100%;
-        transform: scale(1.8);
-        transform-origin: center; 
-        border: 1px dashed red;
-        justify-self: center;
-      " autoplay loop src="/background.json" />
+      height: 100%;
+      width: 100%;
+      transform: scale(1.8);
+      transform-origin: center; 
+      border: 1px dashed red;
+      justify-self: center;
+    " autoplay loop src="/background.json" />
   </div>
+
   <section id="home">
     <div class="logo-wrapper">
-      <Logo class="logo" />
+      <DotLottieVue style="
+        height: auto;
+        width: 90%;
+        justify-self: center;
+      " autoplay :loop="false" src="/logo_bertakang.json" />
     </div>
   </section>
+
   <section id="about">
     <div class="about-wrapper">
       <div class="about-intro">
@@ -44,37 +50,24 @@
       <Service service-header="Front & Back-End Dev"
         service-description="I mostly build with Vue and Nuxt for web (love the SEO perks) and stick to clean HTML, CSS, and JavaScript (Anime.js for animations) when things are simple. For mobile, I use Flutter to keep things cross-platform. Honestly, by my second or third prototype, I’m usually designing straight in code to save time. On the backend, I prefer NoSQL but adapt to what fits the project. I’ve worked with Django, Firebase, and my underrated favorite, Isar. Python is my go-to, and wearing so many dev hats has taught me to be mindful of when to lock in and when to let questions answer themselves first."
         service-page="frontend-index" />
-      <Service service-header="SEO"
-        service-description="SEO is a fairly new major interest of mine, as is the art of marketing. I guess we can call SEO an adtech tool. I’ve worked in Google Lighthouse, PageSpeed insights, and Ahrefs into my previous work. I gave my clients XML Sitemaps, robots.txt files, cleaned up their HTML tags and redirected broken links to make sure we didn’t unnecessarily lose any ranking. This is a field I plan to improve rapidly at."
-        service-page="seo-index" />
       <Service service-header="Digital Art"
         service-description="This is the field closest to my passion, and the skillset that challenges me the most. Invaluably, drawing and painting taught me patience, perspective, how to change my frame of mind, and empathy for those who have practiced hard at something. I’m still a rookie, but please come and explore my art."
-        service-page="pages/digital-art/digital-art.vue" />
+        service-page="digital-art" />
     </div>
   </section>
 </template>
 
 <script>
-import Logo from "@/components/Logo.vue";
 import Service from "@/components/Service.vue";
 import Contact from "@/components/Contact.vue";
 import { DotLottieVue } from "@lottiefiles/dotlottie-vue";
 
 export default {
   components: {
-    Logo,
     DotLottieVue,
     Service,
     Contact,
   },
-  methods: {
-    beforeRouteLeave(to, from, next) {
-      if (animationInstance) {
-        animationInstance.destroy();
-      }
-      next();
-    }
-  }
 }
 </script>
 
@@ -181,7 +174,7 @@ section {
 
 .services-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
   gap: 16px;
   z-index: 11;
@@ -189,12 +182,6 @@ section {
 }
 
 @media screen and (max-width: 1366px) {
-
-  .logo-wrapper,
-  .background,
-  .septagon {
-    display: none;
-  }
 
   /*about section*/
 

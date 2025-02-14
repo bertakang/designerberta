@@ -9,7 +9,7 @@
       </div>
       <div class="field-grid">
         <NuxtLink v-for="project in projects" :key="project.name" :to="project.link" class="project">
-          {{ project.name }}
+          <NuxtImg :src="project.image" :alt="project.name" class="project-logo" />
         </NuxtLink>
       </div>
     </div>
@@ -132,6 +132,13 @@ section {
 .project:hover {
   animation: rainbowBorder 1.5s linear infinite;
   border-width: 2px;
+}
+
+.project-logo {
+  width: 200px;
+  height: auto;
+  /* Set the height */
+  object-fit: contain;
 }
 
 @media screen and (max-width: 667px) {
