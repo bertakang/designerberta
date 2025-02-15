@@ -83,15 +83,19 @@ onMounted(() => {
   }
 }
 
-section {
+
+
+.header {
+  height: 10vh;
+}
+
+.field-index {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   padding: 0px 32px;
-}
+  height: max-content;
 
-.header {
-  height: 10vh;
 }
 
 .field-wrapper {
@@ -127,6 +131,7 @@ section {
   border: 1px solid #40b449;
   justify-content: center;
   align-items: center;
+  min-height: 150px;
 }
 
 .project:hover {
@@ -143,7 +148,7 @@ section {
 
 @media screen and (max-width: 667px) {
   .field-index {
-    padding: 0px 12px;
+  padding: 0px 12px;
   }
 
   .field-wrapper {
@@ -162,12 +167,11 @@ section {
   }
 
   .field-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    height: min-content;
+    display: flex;
+flex-direction: column;
+    height: max-content;
     width: 100%;
-    gap: 16px;
+    border: 4px solid red;
   }
 }
 </style>

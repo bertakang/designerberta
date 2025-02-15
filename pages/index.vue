@@ -101,6 +101,7 @@ section {
   align-content: center;
   justify-items: center;
   z-index: 1000;
+  border: 2px solid red;
 }
 
 
@@ -182,6 +183,10 @@ section {
 }
 
 @media screen and (max-width: 1366px) {
+
+  .background, .septagon {
+    display:none;
+  }
 
   /*about section*/
 

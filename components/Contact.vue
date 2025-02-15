@@ -1,9 +1,11 @@
 <template>
-  <div class="see-below">
-    <h1>See below to get into contact.</h1>
-  </div>
+
+
 
   <div class="contact-wrapper">
+    <div class="see-below">
+    <h1>See below to get into contact.</h1>
+  </div>
     <div class="contact-navbar">
       <h3>Talk Work With Me</h3>
       <nav class="contact-nav-links-wrapper">
