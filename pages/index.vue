@@ -20,7 +20,6 @@
         align-self: center;
         align-items: center;
         text-align: center;
-        border: 1px dashed aqua;
       " autoplay :loop="false" src="/logo_bertakang.json" />
     </div>
   </section>
@@ -99,9 +98,6 @@ section {
 /* home section */
 
 
-#home {
-  border: 3px dashed red;
-}
 
 .logo-wrapper {
   height: 100vh;
@@ -112,7 +108,7 @@ section {
   align-self: center;
   z-index: 1000;
   padding: 0px 32px;
-border: 1px solid yellow;
+
 }
 
 
