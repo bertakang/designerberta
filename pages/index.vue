@@ -31,9 +31,8 @@
           to my portfolio.</span>
         Really into graphic arts as a kid. Started my career as a civil engineer-in-training, and then spent a
         handful of years learning to trade on the NASDAQ. Now I
-        do end-to-end web and mobile development, with UX, UI and asset design
-        included. <br /><br />I don't have preferences for any of my above skill sets. If you like all that,
-        <NuxtLink to="mailto:bertakang@gmail.com" class="email-link">contact me here.</NuxtLink>
+        do web and mobile development, often building from scratch and going all the way from UX, UI and asset design to full-stack development. <br /><br />I don't have preferences for any of my above skill sets.  <br /><br />
+        <NuxtLink to="mailto:bertakang@gmail.com" class="email-link">For work, contact me here.</NuxtLink>
       </div>
     </div>
     <div class="septagon">
@@ -45,13 +44,13 @@
     <h1>Services</h1>
     <div class="services-grid">
       <Service service-header="UX Research & UI Design"
-        service-description="UX is always evolving, and the key to a competitive edge is asking the right overlooked questions. Whether it’s fieldwork, usability tests, or fully immersing myself in the audience, I go all in on research. I’m also a total nerd for color palettes, typography, and interaction design—spending hours on mood boards before knocking out a prototype. Hitting that sweet spot between experimental and usable feels like winning a war, and I always give engineering feasibility a quick 20-minute reality check before committing to my Figma files."
+        service-description="The non-linear and iterative nature to the fields of UX Research & UI Design takes skillsets that I constantly have to adapt to, depending on the project. These have got quite a close relationships to marketing when you get deep into it, no? My stronger suit is color palette, typography and interaction design, but I’m also diligent in making sure the right questions are being asked when building something."
         service-page="uidesign-index" />
       <Service service-header="Front & Back-End Dev"
-        service-description="I mostly build with Vue and Nuxt for web (love the SEO perks) and stick to clean HTML, CSS, and JavaScript (Anime.js for animations) when things are simple. For mobile, I use Flutter to keep things cross-platform. Honestly, by my second or third prototype, I’m usually designing straight in code to save time. On the backend, I prefer NoSQL but adapt to what fits the project. I’ve worked with Django, Firebase, and my underrated favorite, Isar. Python is my go-to, and wearing so many dev hats has taught me to be mindful of when to lock in and when to let questions answer themselves first."
+        service-description="For front-end work, I have a preference for server side scripting, so you’ll often see me skip Vue and React to go straight to Nuxt or Next.js for my heavier projects. For static sites, I’ll just use simple and clean HTML, CSS, Javascript, and maybe add a library like Anime.js for some effects. For my clients, I give the full experience from Figma to staging websites to production. For my own projects, I’ll often prototype in the code itself to make sure components aren’t hard to configure later on. My back-end language preference is Python, and my database choices are usually NoSQL like Firebase or Isar. I did spend a few years working with MySQL way back when though."
         service-page="frontend-index" />
       <Service service-header="Digital Art"
-        service-description="This is the field closest to my passion, and the skillset that challenges me the most. Invaluably, drawing and painting taught me patience, perspective, how to change my frame of mind, and empathy for those who have practiced hard at something. I’m still a rookie, but please come and explore my art."
+        service-description="This is the field that challenges me the most. Drawing and painting taught me many invaluable lessons: patience, perspective, how to change my frame of mind, and empathy for those who have practiced hard at something. I'm still a rookie, but please come and explore my art."
         service-page="digital-art" />
     </div>
   </section>
