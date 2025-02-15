@@ -16,6 +16,7 @@
         height: auto;
         width: 90%;
         justify-self: center;
+        align-self: center;
       " autoplay :loop="false" src="/logo_bertakang.json" />
     </div>
   </section>
