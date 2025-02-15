@@ -1391,7 +1391,6 @@ pre {
   flex-direction: column;
   flex: 1;
   margin-right: 12px;
-  border: 1px solid yellow;
 }
 
 .techstack-cards-wrapper .card {
@@ -1403,7 +1402,6 @@ pre {
   flex-direction: column;
   flex: 2;
   padding: 0px 32px;
-  border: 1px aqua dashed;
 }
 
 /* study */
@@ -1516,11 +1514,9 @@ iframe {
 
   .card-wrapper {
     padding: 0px 0px;
-    border: 1px dashed yellowgreen;
   }
 
   .cards-grid {
-    border: 1px dashed pink;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
   }
@@ -1532,7 +1528,7 @@ iframe {
 
   .techstack-and-apparchitecture-wrapper {
     flex-direction: column;
-    border: 1px solid red;
+
     min-height: 100%;
     height: max-content;
   }
