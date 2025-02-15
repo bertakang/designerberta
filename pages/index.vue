@@ -15,7 +15,7 @@
     <div class="logo-wrapper">
       <DotLottieVue style="
         height: auto;
-        width: 90%;
+        width: 100%;
         justify-self: center;
         align-self: center;
         align-items: center;
@@ -111,6 +111,7 @@ section {
   align-items: center;
   align-self: center;
   z-index: 1000;
+  padding: 0px 32px;
 border: 1px solid yellow;
 }
 
@@ -195,9 +196,13 @@ border: 1px solid yellow;
 @media screen and (max-width: 1366px) {
 
 
-  /* .background, .septagon {
+  .background, .septagon {
     display:none;
-  } */
+  }
+
+  .logo-wrapper {
+    padding: 0px 12px;
+  }
 
   /*about section*/
 
