@@ -5,7 +5,7 @@
       width: 100%;
       transform: scale(1.8);
       transform-origin: center; 
-      border: 19px dashed red;
+
       justify-self: center;
       align-self: center;
     " autoplay loop src="/background.json" />
