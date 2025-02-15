@@ -7,9 +7,9 @@ import FieldIndex from '~/layouts/field-index.vue';
 
 
 const projectList = [
-  { name: "Panyavon", link: "/uxresearch/ux-panyavon"},
-  { name: "TAE Life Sciences", link: "https://www.figma.com/design/ou293X57ZqcxUX7SX9nfFr/tae_master?node-id=0-1&t=XIxPRi1uATb7TRSr-1", image: "/portfolio/taelifesciences/logotae.webp"},
+
   { name: "Seoulmate", link: "/uxresearch/ux-seoulmate", image: "/portfolio/seoulmate/seoulmateuxresearch.svg" },
   { name: "Seoulmate (Figma file)", link: "https://www.figma.com/design/uOIAVKa3vtBxoYpLd4A9XO/seoulmate_final?node-id=180-2572&t=QxnlwiZWcIX4mzrH-1", image: "/portfolio/seoulmate/seoulmatefigma.svg" },
+  { name: "TAE Life Sciences", link: "https://www.figma.com/design/ou293X57ZqcxUX7SX9nfFr/tae_master?node-id=0-1&t=XIxPRi1uATb7TRSr-1", image: "/portfolio/taelifesciences/logotae.webp"},
 ];
 </script>
