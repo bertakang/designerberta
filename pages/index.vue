@@ -18,6 +18,8 @@
         width: 90%;
         justify-self: center;
         align-self: center;
+        align-items: center;
+        border: 19px dashed red;
       " autoplay :loop="false" src="/logo_bertakang.json" />
     </div>
   </section>
