@@ -18,7 +18,7 @@
       </div>
     </div>
     <div class="intro-visual">
-      <iframe width="300" height="614" src="https://www.youtube.com/embed/ChBIaq-JUWk"
+      <iframe width="300" height="614" src="https://www.youtube.com/embed/gavIDAm5PII"
         title="Seoulmate - Low-Fidelity Prototype" frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -226,7 +226,7 @@
     </div>
     <div class="intro-visual">
 
-      <iframe width="300" height="614" src="https://www.youtube.com/embed/ChBIaq-JUWk"
+      <iframe width="300" height="614" src="https://www.youtube.com/embed/oNs-AEUlOGI"
         title="Seoulmate - Low-Fidelity Prototype" frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -378,7 +378,7 @@ class AlphabetBlock extends StatelessWidget {
             code for additional information.
           </p>
           <div class="video-sample">
-            <iframe width="250" height="512" src="https://www.youtube.com/embed/ChBIaq-JUWk"
+            <iframe width="250" height="512" src="https://www.youtube.com/embed/gmsh9o3Bz-M"
               title="Seoulmate - Low-Fidelity Prototype" frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -570,7 +570,7 @@ class _LessonsTemplatePageState extends State&lt;LessonsTemplatePage&gt; {
       </div>
     </div>
     <div class="intro-visual">
-      <iframe width="300" height="614" src="https://www.youtube.com/embed/ChBIaq-JUWk"
+      <iframe width="300" height="614" src="https://www.youtube.com/embed/pOOrSV_A-Lc"
         title="Seoulmate - Low-Fidelity Prototype" frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -590,11 +590,9 @@ class _LessonsTemplatePageState extends State&lt;LessonsTemplatePage&gt; {
             competition and skill development.
           </p>
 
-          <div class="video-sample">
-            <iframe width="229" height="469" src="https://www.youtube.com/embed/ChBIaq-JUWk"
-              title="Seoulmate - Low-Fidelity Prototype" frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          <div
+            style="width: 229px; height: 469px; background-color: #f0f0f0; display: flex; justify-self: center; justify-content: center; align-items: center; font-size: 24px; font-weight: bold; color: #333;">
+            Coming Soon
           </div>
         </div>
       </div>
@@ -1225,10 +1223,11 @@ class HealthBar extends StatelessWidget {
       </div>
     </div>
     <div class="intro-visual">
-      <iframe width="250" height="512" src="https://www.youtube.com/embed/ChBIaq-JUWk"
-        title="Seoulmate - Low-Fidelity Prototype" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <div
+        style="width: 250px; height: 512px; background-color: #f0f0f0; display: flex; justify-content: center; align-items: center; font-size: 24px; font-weight: bold; color: #333;">
+        Coming Soon
+      </div>
+
     </div>
   </section>
 </template>
