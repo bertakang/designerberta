@@ -97,7 +97,9 @@ section {
 /* home section */
 
 
-
+#home {
+  border: 3px dashed red;
+}
 
 .logo-wrapper {
   height: 100vh;
@@ -107,7 +109,7 @@ section {
   align-items: center;
   align-self: center;
   z-index: 1000;
-
+border: 1px solid yellow;
 }
 
 
@@ -191,9 +193,9 @@ section {
 @media screen and (max-width: 1366px) {
 
 
-  .background, .septagon {
+  /* .background, .septagon {
     display:none;
-  }
+  } */
 
   /*about section*/
 
