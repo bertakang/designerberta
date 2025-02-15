@@ -207,6 +207,9 @@ onUnmounted(() => {
 }
 
 @media screen and (max-width: 1366px) {
+    .digitalart {
+    padding: 0px 12px;
+}
     .digitalart-grid {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
