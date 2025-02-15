@@ -157,7 +157,7 @@ footer {
   color: aliceblue;
 }
 
-@media screen and (max-width: 667px) {
+@media screen and (max-width: 1366px) {
 
   /*see below*/
   .see-below {

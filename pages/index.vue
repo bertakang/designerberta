@@ -97,6 +97,8 @@ section {
 /* home section */
 
 
+
+
 .logo-wrapper {
   height: 100vh;
   width: 100%;
@@ -187,6 +189,7 @@ section {
 }
 
 @media screen and (max-width: 1366px) {
+
 
   .background, .septagon {
     display:none;
