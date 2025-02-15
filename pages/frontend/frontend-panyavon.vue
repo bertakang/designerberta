@@ -1522,12 +1522,16 @@ iframe {
   }
 
   /* tech stack and app architecture */
-
+  #techstack-and-apparchitecture, #study, #games {
+    padding: 0px 12px;
+  }
 
   .techstack-and-apparchitecture-wrapper {
     flex-direction: column;
     height: max-content;
   }
+
+
 
 
 
@@ -1544,6 +1548,11 @@ iframe {
     height: max-content;
     position: relative;
     padding-right: 0px;
+  }
+
+  .two-one-content pre {
+    width: 100%;
+
   }
 }
 </style>

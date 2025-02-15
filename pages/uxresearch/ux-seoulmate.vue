@@ -1,10 +1,21 @@
 <template>
     <section id="intro">
-        <h1>Google UX Design Process - Seoulmate Project</h1>
-        <p>This project showcases a portfolio piece designed for a fictional traditional Korean restaurant called
+        <div class="two-one-wrapper">
+            <div class="two-one-description">
+                <NuxtImg width="auto" height="300px" src="/portfolio/seoulmate/seoulmateuxresearch.svg"></NuxtImg>
+        <p>This was my beginner Coursera project HAHAHA. But I thought it was cute and funny, so I included it. <br></br><br></br>This project showcases a portfolio piece designed for a fictional traditional Korean restaurant called
             <strong>Seoulmate</strong>. All digital paintings, animations, typography, and user experience designs were
             created by me, Berta Kang.
         </p>
+            </div>
+            <div class="two-one-content">
+                <iframe width="300" height="615" src="https://www.youtube.com/embed/leXOJg2C33Q?si=uVXeLgj_UIYIzH6v"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+
     </section>
     <section id="goal">
         <div class="goal-wrapper">
@@ -154,7 +165,7 @@
     <section id="low-fidelity-prototyping">
         <div class="two-one-wrapper">
             <div class="two-one-content">
-                <h2>Low-Fidelity Prototype</h2>
+          
                 <iframe width="229" height="469" src="https://www.youtube.com/embed/ChBIaq-JUWk"
                     title="Seoulmate - Low-Fidelity Prototype" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -174,7 +185,7 @@
     <section id="high-fidelity-prototyping">
         <div class="two-one-wrapper">
             <div class="two-one-content">
-                <h2>High-Fidelity Prototype</h2>
+         
                 <iframe width="229" height="469" src="https://www.youtube.com/embed/leXOJg2C33Q?si=uVXeLgj_UIYIzH6v"
                     title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -211,6 +222,19 @@ export default {
 </script>
 
 <style>
+    #empathize,
+    #define,
+    #ideate,
+    #wireframing,
+    #low-fidelity-prototyping,
+    #high-fidelity-prototyping {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 32px;
+
+    }
+
+
 .nuxt-image-wrapper {
     width: 100%;
     height: auto;
@@ -242,6 +266,8 @@ section {
     flex-direction: column;
     flex: 1;
     height: 100%;
+    align-items: center;
+    justify-content: center;
 }
 
 .two-one-description {
@@ -252,6 +278,7 @@ section {
     position: sticky;
     top: 0;
     height: 100%;
+    justify-content: center;
 }
 
 /* one-two flex preset */

@@ -36,6 +36,7 @@
         Really into graphic arts as a kid. Started my career as a civil engineer-in-training, and then spent a
         handful of years learning to trade on the NASDAQ. Now I
         do web and mobile development, often building from scratch and going all the way from UX, UI and asset design to full-stack development. <br /><br />I don't have preferences for any of my above skill sets.  <br /><br />
+        <NuxtLink to="/frontend/frontend-panyavon" class="email-link">Click here to review Panyavon, my latest and greatest project.</NuxtLink> <br />
         <NuxtLink to="mailto:bertakang@gmail.com" class="email-link">For work, contact me here.</NuxtLink>
       </div>
     </div>

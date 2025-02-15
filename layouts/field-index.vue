@@ -136,7 +136,7 @@ onMounted(() => {
 
 .project:hover {
   animation: rainbowBorder 1.5s linear infinite;
-  border-width: 2px;
+  border-width: 1px;
 }
 
 .project-logo {
