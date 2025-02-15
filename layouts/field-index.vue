@@ -90,7 +90,7 @@ onMounted(() => {
 }
 
 .field-index {
-  display: flex;
+  display: inline-block;
   flex-direction: column;
   min-height: 100vh;
   padding: 0px 32px;
@@ -119,8 +119,8 @@ onMounted(() => {
 
 .field-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-rows: auto;
   height: 90%;
   width: 50%;
   gap: 16px;
@@ -131,7 +131,7 @@ onMounted(() => {
   border: 1px solid #40b449;
   justify-content: center;
   align-items: center;
-  min-height: 150px;
+  padding: 32px 0px;
 }
 
 .project:hover {
@@ -142,17 +142,17 @@ onMounted(() => {
 .project-logo {
   width: 200px;
   height: auto;
-  /* Set the height */
   object-fit: contain;
 }
 
-@media screen and (max-width: 667px) {
+@media screen and (max-width: 1366px) {
   .field-index {
   padding: 0px 12px;
   }
 
   .field-wrapper {
     flex-direction: column;
+    height: max-content;
   }
 
   .field-intro {
@@ -168,10 +168,9 @@ onMounted(() => {
 
   .field-grid {
     display: flex;
-flex-direction: column;
+    flex-direction: column;
     height: max-content;
     width: 100%;
-    border: 4px solid red;
   }
 }
 </style>

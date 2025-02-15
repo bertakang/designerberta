@@ -1,11 +1,9 @@
 <template>
-
-
-
-  <div class="contact-wrapper">
-    <div class="see-below">
+      <div class="see-below">
     <h1>See below to get into contact.</h1>
   </div>
+  <section class="contact-wrapper">
+
     <div class="contact-navbar">
       <h3>Talk Work With Me</h3>
       <nav class="contact-nav-links-wrapper">
@@ -47,7 +45,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
   <footer>
     <div>
       <div>
@@ -93,7 +91,7 @@ footer {
   display: flex;
   flex-direction: row;
   padding: 32px 32px;
-  height: 25vh;
+  min-height: 25vh;
   align-items: space-between;
   justify-content: space-between;
   justify-items: space-between;
