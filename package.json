@@ -3,6 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "preinstall": "npm install",
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
