@@ -19,6 +19,7 @@
         justify-self: center;
         align-self: center;
         align-items: center;
+        text-align: center;
       " autoplay :loop="false" src="/logo_bertakang.json" />
     </div>
   </section>
