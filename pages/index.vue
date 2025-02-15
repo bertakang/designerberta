@@ -197,7 +197,16 @@ section {
     display:none;
   }
 
+
+
+  /*home section*/
+  #home {
+    min-height: min-content;
+    margin: 0px 0px;
+  }
+
   .logo-wrapper {
+    height: min-content;
     padding: 0px 12px;
   }
 
