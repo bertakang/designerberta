@@ -8,7 +8,7 @@ import FieldIndex from '~/layouts/field-index.vue';
 
 const projectList = [
   { name: "Panyavon", link: "/frontend/frontend-panyavon" },
-  { name: "TAE Life Sciences", link: "/uxresearch/ux-tae-life-sciences" },
+  { name: "TaskTalk", link: "/uxresearch/ui-tasktalk" },
   { name: "Seoulmate", link: "/uxresearch/ux-seoulmate" },
 ];
 </script>

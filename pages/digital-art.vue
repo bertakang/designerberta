@@ -205,4 +205,18 @@ onUnmounted(() => {
     color: black;
     text-shadow: 0px 0px 4px rgba(255, 255, 255, 0.8);
 }
+
+@media screen and (max-width: 1366px) {
+    .digitalart-grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+}
+}
+
+@media screen and (max-width: 1024px) {
+    .digitalart-grid {
+    grid-template-columns: 1fr;
+}
+
+}
 </style>

@@ -2,6 +2,12 @@
 {
   "compilerOptions": {
     "paths": {
+      "nitropack/types": [
+        "../node_modules/nitropack/types"
+      ],
+      "nitropack/runtime": [
+        "../node_modules/nitropack/runtime"
+      ],
       "nitropack": [
         "../node_modules/nitropack"
       ],
@@ -38,6 +44,9 @@
       "nuxt": [
         "../node_modules/nuxt"
       ],
+      "vite/client": [
+        "../node_modules/vite/client"
+      ],
       "~": [
         ".."
       ],
@@ -61,6 +70,9 @@
       ],
       "@@/*": [
         "../*"
+      ],
+      "#shared": [
+        "../shared"
       ],
       "assets": [
         "../assets"
@@ -93,16 +105,16 @@
         "./imports"
       ],
       "#app-manifest": [
-        "./manifest/meta/dev"
+        "./manifest/meta/dev.json"
+      ],
+      "#components": [
+        "./components"
       ],
       "#build": [
         "."
       ],
       "#build/*": [
         "./*"
-      ],
-      "#components": [
-        "./components"
       ]
     },
     "esModuleInterop": true,
@@ -117,7 +129,7 @@
     "noUncheckedIndexedAccess": false,
     "forceConsistentCasingInFileNames": true,
     "noImplicitOverride": true,
-    "module": "ESNext",
+    "module": "preserve",
     "noEmit": true,
     "lib": [
       "ESNext",
@@ -153,6 +165,11 @@
     "../dist",
     "../node_modules",
     "../node_modules/nuxt/node_modules",
+    "../node_modules/@nuxtjs/google-fonts/node_modules",
+    "../node_modules/@nuxt/image/node_modules",
+    "../node_modules/@vesp/nuxt-fontawesome/node_modules",
+    "../node_modules/@nuxt/devtools/node_modules",
+    "../node_modules/@nuxt/telemetry/node_modules",
     "../node_modules/@nuxtjs/google-fonts/runtime/server",
     "../node_modules/@nuxtjs/google-fonts/dist/runtime/server",
     "../node_modules/@nuxt/image/runtime/server",
