@@ -41,7 +41,7 @@
       </div>
     </div>
     <div class="septagon">
-      <DotLottieVue style="height: 70%; width: auto; justify-self: center" autoplay loop
+      <DotLottieVue style="height: 90vh; width: auto; justify-self: center" autoplay loop
         src="https://lottie.host/d7a92252-2e5d-4ca2-9dc6-337753970266/1Exy8PGcMD.lottie" />
     </div>
   </section>
@@ -171,6 +171,7 @@ section {
 .septagon {
   position: absolute;
   width: 100%;
+
 }
 
 /*services section*/
