@@ -229,7 +229,7 @@
       <iframe width="300" height="614" src="https://www.youtube.com/embed/oNs-AEUlOGI"
         title="Seoulmate - Low-Fidelity Prototype" frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
     </div>
   </section>
   <section id="study">
@@ -250,7 +250,7 @@
             <iframe width="250" height="512" src="https://www.youtube.com/embed/se5zsKjVbmg"
               title="Panyavon - Phonics Practice" frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
           </div>
         </div>
       </div>
@@ -381,7 +381,7 @@ class AlphabetBlock extends StatelessWidget {
             <iframe width="250" height="512" src="https://www.youtube.com/embed/gmsh9o3Bz-M"
               title="Seoulmate - Low-Fidelity Prototype" frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
           </div>
         </div>
       </div>
@@ -502,7 +502,7 @@ class _FlashcardState extends State&lt;Flashcard&gt; with SingleTickerProviderSt
             <iframe width="250" height="512" src="https://www.youtube.com/embed/i7Q4dEAswTk
 " title="Seoulmate - Low-Fidelity Prototype" frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
           </div>
         </div>
       </div>
@@ -573,7 +573,7 @@ class _LessonsTemplatePageState extends State&lt;LessonsTemplatePage&gt; {
       <iframe width="300" height="614" src="https://www.youtube.com/embed/pOOrSV_A-Lc"
         title="Seoulmate - Low-Fidelity Prototype" frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
     </div>
   </section>
   <section id="games">
@@ -655,7 +655,7 @@ void _startBoatPositionTimer() {
             <iframe width="229" height="469" src="https://www.youtube.com/embed/Ryy1JSoBA_Y
 " title="Seoulmate - Low-Fidelity Prototype" frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
           </div>
         </div>
       </div>
@@ -895,7 +895,7 @@ Widget build(BuildContext context) {
             <iframe width="229" height="469" src="https://www.youtube.com/embed/PfW5UoOQ1Do
 " title="Seoulmate - Low-Fidelity Prototype" frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
           </div>
         </div>
       </div>
@@ -1175,7 +1175,7 @@ class HealthBar extends StatelessWidget {
       <iframe width="300" height="614" src="https://www.youtube.com/embed/-KgbfX0q8UE"
         title="Seoulmate - Low-Fidelity Prototype" frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
     </div>
   </section>
   <section id="intro">
@@ -1201,7 +1201,7 @@ class HealthBar extends StatelessWidget {
 
 " title="Seoulmate - Low-Fidelity Prototype" frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
     </div>
   </section>
   <section id="intro">
