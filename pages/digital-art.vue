@@ -2,8 +2,8 @@
     <div class="background">
 
         <DotLottieVue style="
-      height: 100%;
-      width: 100%;
+      height: 100vh;
+      width: 100vw;
       transform: scale(1.8);
       transform-origin: center; 
       border: 1px dashed red;
