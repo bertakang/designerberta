@@ -5,7 +5,7 @@
       width: 100%;
       transform: scale(1.8);
       transform-origin: center; 
-      border: 1px dashed red;
+      border: 19px dashed red;
       justify-self: center;
     " autoplay loop src="/background.json" />
   </div>
@@ -214,8 +214,8 @@ section {
   position: absolute;
 
   align-content: center;
-  height: 100vh;
-  width: auto;
+  height: auto;
+  width: 100%;
 }
 
   /*services section*/
