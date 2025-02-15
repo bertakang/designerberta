@@ -12,8 +12,10 @@
             <div class="description">
                 <h2>Goal</h2>
                 <p>The objective of this project is to design a user-friendly reservation and ordering platform for
-                    Seoulmate, a traditional Korean restaurant concept in a densely populated city. The app aims to provide users
-                    with a seamless and efficient way to make reservations and place orders, eliminating common frustrations
+                    Seoulmate, a traditional Korean restaurant concept in a densely populated city. The app aims to
+                    provide users
+                    with a seamless and efficient way to make reservations and place orders, eliminating common
+                    frustrations
                     associated with phone-based systems.</p>
             </div>
         </div>
@@ -79,7 +81,8 @@
         <div class="one-two-wrapper">
             <div class="two-one-description">
                 <h2>Wireframing</h2>
-                <p>The wireframe was created and transferred to Figma, where a low-fidelity prototype was developed. This
+                <p>The wireframe was created and transferred to Figma, where a low-fidelity prototype was developed.
+                    This
                     prototype enabled initial usability testing, helping to identify potential user pain points.</p>
             </div>
             <div class="one-two-content">
@@ -112,38 +115,38 @@
                 </div>
                 <div class="wireframe-grid">
                     <div class="nuxt-image-wrapper">
-                    <NuxtImg class="nuxt-image" src="/portfolio/seoulmate/wireframe1.png"
-                        alt="The first storyboard for the Seoulmate project." />
-                </div>
-                <div class="nuxt-image-wrapper">
-                    <NuxtImg class="nuxt-image" src="/portfolio/seoulmate/wireframe2.png"
-                        alt="The second storyboard for the Seoulmate project." />
-                </div>
-                <div class="nuxt-image-wrapper">
-                    <NuxtImg class="nuxt-image" src="/portfolio/seoulmate/wireframe3.png"
-                        alt="The third storyboard for the Seoulmate project." />
-                </div>
-                <div class="nuxt-image-wrapper">
-                    <NuxtImg class="nuxt-image" src="/portfolio/seoulmate/wireframe4.png"
-                        alt="The fourth storyboard for the Seoulmate project." />
-                </div>
-                <div class="nuxt-image-wrapper">
-                    <NuxtImg class="nuxt-image" src="/portfolio/seoulmate/wireframe5.png"
-                        alt="The fifth storyboard for the Seoulmate project." />
-                </div>
-                <div class="nuxt-image-wrapper">
-                    <NuxtImg class="nuxt-image" src="/portfolio/seoulmate/wireframe6.png"
-                        alt="The sixth storyboard for the Seoulmate project." />
-                </div>
-                <div class="nuxt-image-wrapper">
-                    <NuxtImg class="nuxt-image" src="/portfolio/seoulmate/wireframe7.png"
-                        alt="The seventh storyboard for the Seoulmate project." />
-                </div>
-                <div class="nuxt-image-wrapper">
-                    <NuxtImg class="nuxt-image" src="/portfolio/seoulmate/wireframe8.png"
-                        alt="The eighth storyboard for the Seoulmate project." />
-                </div>
-               
+                        <NuxtImg class="nuxt-image" src="/portfolio/seoulmate/wireframe1.png"
+                            alt="The first storyboard for the Seoulmate project." />
+                    </div>
+                    <div class="nuxt-image-wrapper">
+                        <NuxtImg class="nuxt-image" src="/portfolio/seoulmate/wireframe2.png"
+                            alt="The second storyboard for the Seoulmate project." />
+                    </div>
+                    <div class="nuxt-image-wrapper">
+                        <NuxtImg class="nuxt-image" src="/portfolio/seoulmate/wireframe3.png"
+                            alt="The third storyboard for the Seoulmate project." />
+                    </div>
+                    <div class="nuxt-image-wrapper">
+                        <NuxtImg class="nuxt-image" src="/portfolio/seoulmate/wireframe4.png"
+                            alt="The fourth storyboard for the Seoulmate project." />
+                    </div>
+                    <div class="nuxt-image-wrapper">
+                        <NuxtImg class="nuxt-image" src="/portfolio/seoulmate/wireframe5.png"
+                            alt="The fifth storyboard for the Seoulmate project." />
+                    </div>
+                    <div class="nuxt-image-wrapper">
+                        <NuxtImg class="nuxt-image" src="/portfolio/seoulmate/wireframe6.png"
+                            alt="The sixth storyboard for the Seoulmate project." />
+                    </div>
+                    <div class="nuxt-image-wrapper">
+                        <NuxtImg class="nuxt-image" src="/portfolio/seoulmate/wireframe7.png"
+                            alt="The seventh storyboard for the Seoulmate project." />
+                    </div>
+                    <div class="nuxt-image-wrapper">
+                        <NuxtImg class="nuxt-image" src="/portfolio/seoulmate/wireframe8.png"
+                            alt="The eighth storyboard for the Seoulmate project." />
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -152,35 +155,46 @@
         <div class="two-one-wrapper">
             <div class="two-one-content">
                 <h2>Low-Fidelity Prototype</h2>
-                <iframe width="229" height="469" src="https://www.youtube.com/embed/ChBIaq-JUWk" title="Seoulmate - Low-Fidelity Prototype" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <iframe width="229" height="469" src="https://www.youtube.com/embed/ChBIaq-JUWk"
+                    title="Seoulmate - Low-Fidelity Prototype" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
             <div class="two-one-description">
                 <h2>Figma Design for Low-Fidelity Prototype</h2>
-        <p>A low-fidelity prototype was built in Figma and tested with a group of users from diverse backgrounds. After
-            collecting feedback, an affinity diagram was created to organize insights from the usability study.</p>
+                <p>A low-fidelity prototype was built in Figma and tested with a group of users from diverse
+                    backgrounds. After
+                    collecting feedback, an affinity diagram was created to organize insights from the usability study.
+                </p>
             </div>
-           
+
         </div>
-       
+
     </section>
     <section id="high-fidelity-prototyping">
         <div class="two-one-wrapper">
             <div class="two-one-content">
                 <h2>High-Fidelity Prototype</h2>
-                <iframe width="229" height="469" src="https://www.youtube.com/embed/leXOJg2C33Q?si=uVXeLgj_UIYIzH6v" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            </div>
+                <iframe width="229" height="469" src="https://www.youtube.com/embed/leXOJg2C33Q?si=uVXeLgj_UIYIzH6v"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
             <div class="two-one-description">
                 <h2>Figma Design for High-Fidelity Prototype</h2>
-        <p>Based on the affinity diagram and usability insights, iterative changes were made to the design, including:
-        </p>
-        <ul>
-            <li>Adding a summary page for the menu</li>
-            <li>Enabling category selection for the menu</li>
-            <li>Adding confirmation pop-ups</li>
-        </ul>
-        <p>The high-fidelity prototype was then developed and tested. The final videos below demonstrate three different
-            user flows:</p>
+                <p>Based on the affinity diagram and usability insights, iterative changes were made to the design,
+                    including:
+                </p>
+                <ul>
+                    <li>Adding a summary page for the menu</li>
+                    <li>Enabling category selection for the menu</li>
+                    <li>Adding confirmation pop-ups</li>
+                </ul>
+                <p>The high-fidelity prototype was then developed and tested. The final videos below demonstrate three
+                    different
+                    user flows:</p>
             </div>
-           
+
         </div>
 
     </section>
@@ -272,5 +286,34 @@ section {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     gap: 16px;
+}
+
+@media screen and (max-width: 1366px) {
+
+    #empathize,
+    #define,
+    #ideate,
+    #wireframing,
+    #low-fidelity-prototyping,
+    #high-fidelity-prototyping {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 12px;
+
+    }
+
+    .two-one-wrapper,
+    .one-two-wrapper {
+        flex-direction: column;
+    }
+
+    .two-one-content iframe{
+        align-self: center;
+
+    }
+
+    .two-one-description {
+        position: relative;
+    }
 }
 </style>
