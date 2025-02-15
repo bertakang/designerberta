@@ -100,6 +100,8 @@ section {
   width: 100%;
   align-content: center;
   justify-items: center;
+  align-items: center;
+  align-self: ;
   z-index: 1000;
   border: 2px solid red;
 }
