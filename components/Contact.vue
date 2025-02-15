@@ -36,13 +36,11 @@
         <h3>Peep My Portfolio</h3>
         <div class="portfolio-wrapper">
           <div class="portfolio-column">
-            <NuxtLink class="portfolio-link" to="/uxresearch-index">UX Research</NuxtLink>
-            <NuxtLink class="portfolio-link" to="/uidesign-index">UI Design</NuxtLink>
+            <NuxtLink class="portfolio-link" to="/uidesign-index">UX Research & UI Design</NuxtLink>
             <NuxtLink class="portfolio-link" to="/frontend-index">Front-End Development</NuxtLink>
           </div>
           <div class="portfolio-column">
-            <NuxtLink class="portfolio-link" to="/backend-index">Back-End Development</NuxtLink>
-            <NuxtLink class="portfolio-link" to="/seo-index">Search Engine Optimization</NuxtLink>
+            <NuxtLink class="portfolio-link" to="/digital-art">Digital Art</NuxtLink>
           </div>
         </div>
       </div>
