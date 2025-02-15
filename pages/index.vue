@@ -19,7 +19,6 @@
         justify-self: center;
         align-self: center;
         align-items: center;
-        border: 19px dashed red;
       " autoplay :loop="false" src="/logo_bertakang.json" />
     </div>
   </section>
@@ -104,9 +103,9 @@ section {
   align-content: center;
   justify-items: center;
   align-items: center;
-  align-self: ;
+  align-self: center;
   z-index: 1000;
-  border: 2px solid red;
+
 }
 
 
