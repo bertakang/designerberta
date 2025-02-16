@@ -157,7 +157,7 @@ section {
 
 .email-link {
   text-decoration: none;
-  color: #d876af;
+  color: #00ADEE;
   z-index: 10;
   display: inline-block;
   font-weight: bold;
