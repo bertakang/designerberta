@@ -4,11 +4,13 @@
 
     <NuxtLayout />
     <Analytics />
+    <SpeedInsights />
   </div>
 </template>
 
 <script setup>
 import { Analytics } from '@vercel/analytics/nuxt';
+import { SpeedInsights } from "@vercel/speed-insights/nuxt"
 import { DotLottieVue } from '@lottiefiles/dotlottie-vue';
 </script>
 
