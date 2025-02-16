@@ -3,21 +3,13 @@
   <div>
 
     <NuxtLayout />
-
+    <Analytics />
   </div>
 </template>
 
-<script>
-
+<script setup>
+import { Analytics } from '@vercel/analytics/nuxt';
 import { DotLottieVue } from '@lottiefiles/dotlottie-vue';
-// main.js or main.ts
-
-export default {
-  components: {
-    DotLottieVue,
-
-  },
-};
 </script>
 
 <style>
