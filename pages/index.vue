@@ -56,7 +56,7 @@
         service-page="uidesign-index" />
 
       <Service service-header="Digital Art"
-        service-description="This is the field that challenges me the most. Drawing and painting taught me many invaluable lessons: patience, perspective, how to change my frame of mind, and empathy for those who have practiced hard at something. I'm still a rookie, but please come and explore my art."
+        service-description=" Drawing and painting taught me many invaluable lessons: patience, perspective, how to change my frame of mind, and empathy for those who have practiced hard at something. Please come and explore my art."
         service-page="digital-art" />
     </div>
   </section>
