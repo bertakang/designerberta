@@ -8,21 +8,15 @@
         <h2>Pick a project to explore.</h2>
       </div>
       <div class="field-grid">
-        <NuxtLink 
-  v-for="project in projects" 
-  :key="project.name" 
-  :to="project.link" 
-  class="project" 
-  :aria-label="project.description"
->
-  <NuxtImg :src="project.image" :alt="project.description" class="project-logo" />
-  
-</NuxtLink>
-
+        <NuxtLink v-for="project in projects" :key="project.name" :to="project.link" class="project"
+          :aria-label="'Explore project: ' + project.name + '. ' + project.description">
+          <NuxtImg :src="project.image" :alt="project.description" class="project-logo" />
+        </NuxtLink>
       </div>
     </div>
   </section>
 </template>
+
 
 <script setup>
 import { onMounted } from "vue";
@@ -155,7 +149,7 @@ onMounted(() => {
 
 @media screen and (max-width: 1366px) {
   .field-index {
-  padding: 0px 12px;
+    padding: 0px 12px;
   }
 
   .field-wrapper {
