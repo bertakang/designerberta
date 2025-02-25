@@ -5,7 +5,7 @@
             <p>{{ serviceDescription }}</p>
         </div>
         <div class="see-more">
-            <Nuxt-Link :to="servicePage"><button>See More</button></Nuxt-Link>
+            <Nuxt-Link :to="servicePage"><button :aria-label="serviceMetaDescription">See More</button></Nuxt-Link>
 
         </div>
     </div>
