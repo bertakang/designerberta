@@ -1,7 +1,10 @@
 <!-- app.vue -->
 <template>
   <div>
-    <title>Berta Kang | The Portfolio</title>
+    <Head>
+    <Title>The Berta Kang Portfolio</Title>
+    <Meta name="description" content="Explore the digital art collection of Berta Kang, showcasing creativity, perspective, and the journey of drawing and painting. See how art blends with technology and design." />
+  </Head>
     <NuxtLayout />
     <Analytics />
     <SpeedInsights />
