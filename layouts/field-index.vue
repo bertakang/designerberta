@@ -16,7 +16,7 @@
   :aria-label="project.description"
 >
   <NuxtImg :src="project.image" :alt="project.description" class="project-logo" />
-  <span class="project-name">{{ project.name }}</span> <!-- Visible project name -->
+  
 </NuxtLink>
 
       </div>

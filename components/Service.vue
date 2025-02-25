@@ -5,14 +5,8 @@
             <p>{{ serviceDescription }}</p>
         </div>
         <div class="see-more">
-            <Nuxt-Link :to="servicePage">
-                <button>
-                    <span v-if="servicePage === '/frontend-index'">Explore My Frontend Development Work</span>
-                    <span v-else-if="servicePage === '/uidesign-index'">See My UX & UI Design Projects</span>
-                    <span v-else-if="servicePage === '/digital-art'">View My Digital Art Portfolio</span>
-                    <span v-else>See More</span>
-                </button>
-            </Nuxt-Link>
+            <Nuxt-Link :to="servicePage"><button>See More</button></Nuxt-Link>
+
         </div>
     </div>
 </template>
@@ -36,7 +30,6 @@ export default {
     },
 };
 </script>
-
 
 <style scoped>
 .service-wrapper {
