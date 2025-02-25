@@ -8,9 +8,17 @@
         <h2>Pick a project to explore.</h2>
       </div>
       <div class="field-grid">
-        <NuxtLink v-for="project in projects" :key="project.name" :to="project.link" class="project">
-          <NuxtImg :src="project.image" :alt="project.name" class="project-logo" />
-        </NuxtLink>
+        <NuxtLink 
+  v-for="project in projects" 
+  :key="project.name" 
+  :to="project.link" 
+  class="project" 
+  :aria-label="project.description"
+>
+  <NuxtImg :src="project.image" :alt="project.description" class="project-logo" />
+  <span class="project-name">{{ project.name }}</span> <!-- Visible project name -->
+</NuxtLink>
+
       </div>
     </div>
   </section>
