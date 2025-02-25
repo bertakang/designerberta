@@ -24,6 +24,9 @@ export default defineNuxtConfig({
 
 
   head: {
+    htmlAttrs: {
+      lang: 'en', // Set the lang attribute to English
+    },
     link: [
       {
         rel: "stylesheet",

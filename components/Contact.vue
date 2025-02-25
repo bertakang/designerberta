@@ -1,5 +1,5 @@
 <template>
-      <div class="see-below">
+  <div class="see-below">
     <h1>See below to get into contact.</h1>
   </div>
   <section class="contact-wrapper">
@@ -7,40 +7,63 @@
     <div class="contact-navbar">
       <h3>Talk Work With Me</h3>
       <nav class="contact-nav-links-wrapper">
-        <NuxtLink class="nav-link" to="mailto:bertakang@gmail.com" target="_blank" rel="noopener noreferrer">
+        <NuxtLink 
+          class="nav-link" 
+          to="mailto:bertakang@gmail.com" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          aria-label="Email Berta Kang"
+        >
           <font-awesome :icon="['fab', 'google']" class="social-icon" />
         </NuxtLink>
       </nav>
     </div>
+    
     <div class="contact-navbar">
       <h3>Peep My Socials</h3>
       <nav class="contact-nav-links-wrapper">
-        <NuxtLink class="nav-link" to="https://www.instagram.com/designerberta/" target="_blank"
-          rel="noopener noreferrer">
+        <NuxtLink 
+          class="nav-link" 
+          to="https://www.instagram.com/designerberta/" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          aria-label="Visit Berta Kang on Instagram"
+        >
           <font-awesome :icon="['fab', 'instagram']" class="social-icon" />
         </NuxtLink>
 
-        <NuxtLink class="nav-link" to="https://www.youtube.com/@birdaking" target="_blank" rel="noopener noreferrer">
+        <NuxtLink 
+          class="nav-link" 
+          to="https://www.youtube.com/@birdaking" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          aria-label="Visit Berta Kang on YouTube"
+        >
           <font-awesome :icon="['fab', 'youtube']" class="social-icon" />
         </NuxtLink>
 
-        <NuxtLink class="nav-link" to="https://www.linkedin.com/in/berta-kang/" target="_blank"
-          rel="noopener noreferrer">
+        <NuxtLink 
+          class="nav-link" 
+          to="https://www.linkedin.com/in/berta-kang/" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          aria-label="Visit Berta Kang on LinkedIn"
+        >
           <font-awesome :icon="['fab', 'linkedin']" class="social-icon" />
         </NuxtLink>
-
       </nav>
     </div>
+
     <div class="info-wrapper">
       <div class="work-wrapper">
         <h3>Peep My Portfolio</h3>
         <div class="portfolio-wrapper">
           <div class="portfolio-column">
-            <NuxtLink class="portfolio-link" to="/uidesign-index">UX Research & UI Design</NuxtLink>
-            <NuxtLink class="portfolio-link" to="/frontend-index">Front-End Development</NuxtLink>
+            <NuxtLink class="portfolio-link" to="/uidesign-index" aria-label="View UX Research & UI Design Portfolio">UX Research & UI Design</NuxtLink>
+            <NuxtLink class="portfolio-link" to="/frontend-index" aria-label="View Front-End Development Portfolio">Front-End Development</NuxtLink>
           </div>
           <div class="portfolio-column">
-            <NuxtLink class="portfolio-link" to="/digital-art">Digital Art</NuxtLink>
+            <NuxtLink class="portfolio-link" to="/digital-art" aria-label="View Digital Art Portfolio">Digital Art</NuxtLink>
           </div>
         </div>
       </div>
@@ -65,6 +88,7 @@
     </div>
   </footer>
 </template>
+
 
 
 <style scoped>
