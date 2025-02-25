@@ -1,6 +1,5 @@
 <template>
     <div class="background">
-
         <DotLottieVue style="
       height: 100vh;
       width: 100vw;
@@ -9,9 +8,7 @@
       border: 1px dashed red;
       justify-self: center;
     " autoplay loop src="/background.json" />
-
     </div>
-
 
     <section class="digitalart">
         <div class="header">
@@ -20,7 +17,11 @@
         <div class="digitalart-wrapper">
             <div class="digitalart-grid">
                 <div class="artwork" v-for="(image, index) in images" :key="index">
-                    <NuxtImg :src="image" class="art-image" @click="openModal(image)" />
+                    <NuxtImg :src="image.src" 
+                             class="art-image" 
+                             @click="openModal(image.src)" 
+                             :alt="image.alt" 
+                             :aria-label="image.alt" />
                 </div>
             </div>
         </div>
@@ -50,17 +51,50 @@ definePageMeta({
 });
 
 const images = [
-    "/portfolio/digitalart/boxer.jpg",
-    "/portfolio/digitalart/boxingstage.jpg",
-    "/portfolio/digitalart/apsarastage.jpg",
-    "/portfolio/digitalart/apsara.jpeg",
-    "/portfolio/digitalart/seoulmate.jpg",
-    "/portfolio/digitalart/perillajeon.jpg",
-    "/portfolio/digitalart/porkrice.jpg",
-    "/portfolio/digitalart/yukhoe.jpg",
-    "/portfolio/digitalart/cheesetteokbokki.jpg",
-    "/portfolio/digitalart/boxerblue.jpg",
-    "/portfolio/digitalart/omtouk.jpg",
+    { 
+        src: "/portfolio/digitalart/boxer.jpg", 
+        alt: "Digital artwork of a boxer in the ring, showcasing strength and motion." 
+    },
+    { 
+        src: "/portfolio/digitalart/boxingstage.jpg", 
+        alt: "A dramatic scene of a boxing match on stage, highlighting tension and energy." 
+    },
+    { 
+        src: "/portfolio/digitalart/apsarastage.jpg", 
+        alt: "A serene depiction of an Apsara dancer performing on stage, with elegant movement." 
+    },
+    { 
+        src: "/portfolio/digitalart/apsara.jpeg", 
+        alt: "A detailed portrait of an Apsara dancer in traditional Cambodian attire." 
+    },
+    { 
+        src: "/portfolio/digitalart/seoulmate.jpg", 
+        alt: "A digital artwork capturing a romantic moment in Seoul, blending vibrant colors and city life." 
+    },
+    { 
+        src: "/portfolio/digitalart/perillajeon.jpg", 
+        alt: "A food illustration featuring Perilla Jeon, a traditional Korean dish." 
+    },
+    { 
+        src: "/portfolio/digitalart/porkrice.jpg", 
+        alt: "An illustration of pork rice, showcasing a delicious and colorful dish." 
+    },
+    { 
+        src: "/portfolio/digitalart/yukhoe.jpg", 
+        alt: "An image of Yukhoe, a Korean raw beef dish, artistically presented." 
+    },
+    { 
+        src: "/portfolio/digitalart/cheesetteokbokki.jpg", 
+        alt: "A playful digital art piece of cheese Tteokbokki, a popular Korean street food." 
+    },
+    { 
+        src: "/portfolio/digitalart/boxerblue.jpg", 
+        alt: "A dynamic artwork of a boxer in the blue corner, showcasing movement and power." 
+    },
+    { 
+        src: "/portfolio/digitalart/omtouk.jpg", 
+        alt: "A symbolic representation of Bon Om Touk, the Cambodian water festival, in digital art." 
+    },
 ];
 
 const modalOpen = ref(false);

@@ -76,7 +76,7 @@ import { DotLottieVue } from "@lottiefiles/dotlottie-vue";
 
 
 definePageMeta({
-  title: "Home Page",
+  title: "The Berta Kang Portfolio | Home Page",
   meta: [
     {
       name: 'description',
