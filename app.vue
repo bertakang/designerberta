@@ -3,7 +3,7 @@
   <div>
     <Head>
     <Title>The Berta Kang Portfolio</Title>
-    <Meta name="description" content="Explore the digital art collection of Berta Kang, showcasing creativity, perspective, and the journey of drawing and painting. See how art blends with technology and design." />
+    <Meta name="description" content="Explore the portfolio of Berta Kang, showcasing a range of web development, mobile apps, digital art, UI/UX design, and creative projects blending technology and design." />
   </Head>
     <NuxtLayout />
     <Analytics />
@@ -16,17 +16,7 @@ import { Analytics } from '@vercel/analytics/nuxt';
 import { SpeedInsights } from "@vercel/speed-insights/nuxt"
 import { DotLottieVue } from '@lottiefiles/dotlottie-vue';
 
-import { useHead } from 'nuxt3';
 
-useHead({
-  title: 'The Berta Kang Portfolio | Digital Art',
-  meta: [
-    {
-      name: 'description',
-      content: 'Explore the digital art collection of Berta Kang, showcasing creativity, perspective, and the journey of drawing and painting. See how art blends with technology and design.'
-    }
-  ]
-});
 </script>
 
 <style>

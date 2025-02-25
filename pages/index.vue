@@ -75,15 +75,7 @@ import Contact from "@/components/Contact.vue";
 import { DotLottieVue } from "@lottiefiles/dotlottie-vue";
 
 
-definePageMeta({
-  title: "The Berta Kang Portfolio | Home Page",
-  meta: [
-    {
-      name: 'description',
-      content: 'Welcome to Berta’s portfolio. Explore web and mobile development projects, digital art, UX/UI design, and more. Check out the latest projects and get in touch for collaboration opportunities.'
-    }
-  ]
-});
+
 
 
 export default {
