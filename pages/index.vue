@@ -35,8 +35,10 @@
           to my portfolio.</span>
         Really into graphic arts as a kid. Started my career as a civil engineer-in-training, and then spent a
         handful of years learning to trade on the NASDAQ. Now I
-        do web and mobile development, often building from scratch and going all the way from UX, UI and asset design to full-stack development. <br /><br />I don't have preferences for any of my above skill sets.  <br /><br />
-        <NuxtLink to="/frontend/frontend-panyavon" class="email-link">Click here to review Panyavon, my latest and greatest project.</NuxtLink> <br />
+        do web and mobile development, often building from scratch and going all the way from UX, UI and asset design to
+        full-stack development. <br /><br />I don't have preferences for any of my above skill sets. <br /><br />
+        <NuxtLink to="/frontend/frontend-panyavon" class="email-link">Click here to review Panyavon, my latest and
+          greatest project.</NuxtLink> <br />
         <NuxtLink to="mailto:bertakang@gmail.com" class="email-link">For work, contact me here.</NuxtLink>
       </div>
     </div>
@@ -49,15 +51,20 @@
     <h1>Services</h1>
     <div class="services-grid">
       <Service service-header="Front & Back-End Dev"
-        service-description="For front-end work, I have a preference for server side rendering, so you’ll often see me skip Vue and React to go straight to Nuxt or Next.js for my heavier projects. For static sites, I’ll just use simple and clean HTML, CSS, Javascript, and maybe add a library like Anime.js for some effects. For my clients, I give the full experience from Figma to staging websites to production. For my own projects, I’ll often prototype in the code itself to make sure components aren’t hard to configure later on. My back-end language preference is Python, and my database choices are usually NoSQL like Firebase or Isar. I did spend a few years working with MySQL way back when though."
-        service-page="frontend-index" />
+        service-description="For front-end work, I have a preference for server-side rendering, so you’ll often see me skip Vue and React to go straight to Nuxt or Next.js for my heavier projects. For static sites, I’ll just use simple and clean HTML, CSS, Javascript, and maybe add a library like Anime.js for some effects. For my clients, I give the full experience from Figma to staging websites to production. For my own projects, I’ll often prototype in the code itself to make sure components aren’t hard to configure later on. My back-end language preference is Python, and my database choices are usually NoSQL like Firebase or Isar. I did spend a few years working with MySQL way back when though."
+        service-page="frontend-index"
+        service-meta-description="Full-stack developer specializing in server-side rendering, static sites, and Python-based back-end solutions with a focus on NoSQL databases." />
+
       <Service service-header="UX Research & UI Design"
-        service-description="The non-linear and iterative nature to the fields of UX Research & UI Design takes skillsets that I constantly have to adapt to, depending on the project. These have got quite a close relationships to marketing when you get deep into it, no? My stronger suit is color palette, typography and interaction design, but I’m also diligent in making sure the right questions are being asked when building something."
-        service-page="uidesign-index" />
+        service-description="The non-linear and iterative nature to the fields of UX Research & UI Design takes skillsets that I constantly have to adapt to, depending on the project. These have got quite a close relationship to marketing when you get deep into it, no? My stronger suit is color palette, typography and interaction design, but I’m also diligent in making sure the right questions are being asked when building something."
+        service-page="uidesign-index"
+        service-meta-description="Experienced in UX Research and UI Design, focusing on color, typography, interaction design, and thoughtful user-centric processes for web and mobile apps." />
 
       <Service service-header="Digital Art"
-        service-description=" Drawing and painting taught me many invaluable lessons: patience, perspective, how to change my frame of mind, and empathy for those who have practiced hard at something. Please come and explore my art."
-        service-page="digital-art" />
+        service-description="Drawing and painting taught me many invaluable lessons: patience, perspective, how to change my frame of mind, and empathy for those who have practiced hard at something. Please come and explore my art."
+        service-page="digital-art"
+        service-meta-description="Explore digital art that combines creativity with a deep understanding of perspective, patience, and empathy through drawing and painting." />
+
     </div>
   </section>
 </template>
@@ -206,8 +213,9 @@ section {
 @media screen and (max-width: 1366px) {
 
 
-  .background, .septagon {
-    display:none;
+  .background,
+  .septagon {
+    display: none;
   }
 
 
@@ -251,12 +259,12 @@ section {
   }
 
   .septagon {
-  position: absolute;
+    position: absolute;
 
-  align-content: center;
-  height: auto;
-  width: 100%;
-}
+    align-content: center;
+    height: auto;
+    width: 100%;
+  }
 
   /*services section*/
   #services {

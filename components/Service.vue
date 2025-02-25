@@ -27,6 +27,10 @@ export default {
             type: String,
             required: true,
         },
+        serviceMetaDescription: {
+            type: String,
+            required: true,
+        },
     },
 };
 </script>
