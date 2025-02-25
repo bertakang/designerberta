@@ -214,6 +214,10 @@
 <script>
 import { DotLottieVue } from '@lottiefiles/dotlottie-vue';
 
+definePageMeta({
+  title: "The Berta Kang Portfolio | UX Research | Seoulmate"
+});
+
 export default {
     components: {
         DotLottieVue,

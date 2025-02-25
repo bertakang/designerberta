@@ -5,7 +5,9 @@
 <script setup>
 import FieldIndex from '~/layouts/field-index.vue';
 
-
+definePageMeta({
+  title: "The Berta Kang Portfolio | Front-End Development"
+});
 const projectList = [
   { name: "Panyavon", link: "/frontend/frontend-panyavon" },
   { name: "KB Engineering", link: "https://bertakang.github.io/kb_eng/", image: "/portfolio/kbeng/kbenglogo.png" },

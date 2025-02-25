@@ -214,7 +214,9 @@
 
 <script>
 import { DotLottieVue } from '@lottiefiles/dotlottie-vue';
-
+definePageMeta({
+  title: "The Berta Kang Portfolio | UI Design | Panyavon"
+});
 export default {
     components: {
         DotLottieVue,

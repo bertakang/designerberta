@@ -67,6 +67,10 @@ import Service from "@/components/Service.vue";
 import Contact from "@/components/Contact.vue";
 import { DotLottieVue } from "@lottiefiles/dotlottie-vue";
 
+definePageMeta({
+  title: "Home Page"
+});
+
 export default {
   components: {
     DotLottieVue,

@@ -1,7 +1,7 @@
 <!-- app.vue -->
 <template>
   <div>
-
+    <title>Berta Kang | The Portfolio</title>
     <NuxtLayout />
     <Analytics />
     <SpeedInsights />

@@ -39,6 +39,9 @@
 import { ref, onMounted, onUnmounted } from "vue";
 import { DotLottieVue } from "@lottiefiles/dotlottie-vue";
 
+definePageMeta({
+  title: "The Berta Kang Portfolio | Digital Art"
+});
 
 const images = [
     "/portfolio/digitalart/boxer.jpg",
