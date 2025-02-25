@@ -215,7 +215,13 @@
 <script>
 import { DotLottieVue } from '@lottiefiles/dotlottie-vue';
 definePageMeta({
-  title: "The Berta Kang Portfolio | UI Design | Panyavon"
+  title: "The Berta Kang Portfolio | UI Design | Panyavon",
+  meta: [
+    {
+      name: 'description',
+      content: 'Explore the UI Design work for Panyavon, a Cambodian language learning app by Berta Kang. Discover intuitive user interfaces, thoughtful color schemes, and a seamless learning experience.'
+    }
+  ]
 });
 export default {
     components: {

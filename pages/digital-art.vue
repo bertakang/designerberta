@@ -40,7 +40,13 @@ import { ref, onMounted, onUnmounted } from "vue";
 import { DotLottieVue } from "@lottiefiles/dotlottie-vue";
 
 definePageMeta({
-  title: "The Berta Kang Portfolio | Digital Art"
+  title: "The Berta Kang Portfolio | Digital Art",
+  meta: [
+    {
+      name: 'description',
+      content: 'Explore the digital art collection of Berta Kang, showcasing creativity, perspective, and the journey of drawing and painting. See how art blends with technology and design.'
+    }
+  ]
 });
 
 const images = [

@@ -7,6 +7,12 @@ import FieldIndex from '~/layouts/field-index.vue';
 
 definePageMeta({
   title: "The Berta Kang Portfolio | UI Design",
+  meta: [
+    {
+      name: 'description',
+      content: 'Discover the UI Design portfolio of Berta Kang, featuring user-centric designs, typography, color palettes, and interactive elements. Explore the work that enhances user experience.'
+    }
+  ]
 });
 
 const projectList = [

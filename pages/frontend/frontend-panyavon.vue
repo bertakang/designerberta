@@ -1264,6 +1264,17 @@ class HealthBar extends StatelessWidget {
 import { ClientOnly } from "#components";
 import { DotLottieVue } from "@lottiefiles/dotlottie-vue";
 
+definePageMeta({
+  title: "The Berta Kang Portfolio | Front-End Development | Panyavon",
+  meta: [
+    {
+      name: 'description',
+      content: 'Explore the front-end development work for Panyavon, a Cambodian language learning app by Berta Kang. See how I implemented modern front-end technologies like Next.js and Nuxt for an engaging user experience.'
+    }
+  ]
+});
+
+
 export default {
   components: {
     DotLottieVue,

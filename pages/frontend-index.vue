@@ -6,7 +6,13 @@
 import FieldIndex from '~/layouts/field-index.vue';
 
 definePageMeta({
-  title: "The Berta Kang Portfolio | Front-End Development"
+  title: "The Berta Kang Portfolio | Front-End Development",
+  meta: [
+    {
+      name: 'description',
+      content: 'Explore the portfolio of Berta Kang, a front-end developer with a focus on web and mobile development, UX/UI design, and digital art. See my latest projects and get in touch for collaboration opportunities.'
+    }
+  ]
 });
 const projectList = [
   { 
