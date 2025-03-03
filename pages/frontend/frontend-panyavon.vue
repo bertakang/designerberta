@@ -267,9 +267,6 @@
 
         <h1>Custom Alphabet Block UI Components</h1>
         <pre><code class="language-dart">
-import 'package:flutter/material.dart';
-
-// Define an enum for AlphabetLanguage
 enum AlphabetLanguage { eng, khm }
 
 class AlphabetBlock extends StatelessWidget {
@@ -348,7 +345,7 @@ class AlphabetBlock extends StatelessWidget {
                             ),
                             Icon(
                               Icons.volume_up,
-                              size: 30, // Set the size of the icon
+                              size: 30,
                               color: Color.fromARGB(255, 83, 83, 81),
                             ),
                           ],
@@ -399,10 +396,6 @@ class AlphabetBlock extends StatelessWidget {
         <h1>CODE SAMPLES</h1>
         <h1>Flashcard Flip Animation</h1>
         <pre><code class="language-dart">
-import 'package:flutter/material.dart';
-import 'package:lottie/lottie.dart';
-import 'package:dotlottie_loader/dotlottie_loader.dart';
-
 class Flashcard extends StatefulWidget {
   final String english_term;
   final String khmerization;
