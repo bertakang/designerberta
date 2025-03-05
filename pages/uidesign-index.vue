@@ -16,6 +16,12 @@ definePageMeta({
 });
 
 const projectList = [
+{ 
+    name: "Panyavon (Figma file)", 
+    link: "https://www.figma.com/design/7CobVCLX1F2LuzzM2DAp73/panyavon_web?node-id=0-1&t=JkWlLJ2imItQ8DkW-1", 
+    image: "/portfolio/panyavon/logo.svg",
+    description: "Panyavon web app UI design Figma prototype"
+  },
   { 
     name: "Seoulmate", 
     link: "/uxresearch/ux-seoulmate", 

@@ -1,5 +1,5 @@
 <template>
-  <FieldIndex title="Front-End and Back-End Development" :projects="projectList" : />
+  <FieldIndex title="Front-End and Back-End Development" :projects="projectList" />
 </template>
 
 <script setup>
@@ -18,6 +18,7 @@ const projectList = [
   { 
     name: "Panyavon", 
     link: "/frontend/frontend-panyavon", 
+    image: "/portfolio/panyavon/logo.svg",
     description: "Frontend development for Panyavon, a Cambodian language learning platform."
   },
   { 

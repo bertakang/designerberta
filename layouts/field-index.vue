@@ -1,8 +1,8 @@
 <template>
   <section class="field-index">
     <Head>
-    <Title>{{project.name}}</Title>
-    <Meta name={{ project.name }} content={{ project.description }} />
+    <!-- <Title>{{project.name}}</Title> -->
+    <!-- <Meta :name="project.name" :content="project.description" /> -->
   </Head>
     <div class="header">
       <h1>{{ title }}</h1>
